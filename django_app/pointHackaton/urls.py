@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from badzet.views import get_data
+from badzet.views import get_data, set_data
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api/get-data/$', get_data),
+    url(r'^api/set-data/$', get_data),
 ]
