@@ -1,15 +1,7 @@
 from django.db import models
 
 
-class Timestampable(models.Model):
-    created_at = models.DateTimeField(auto_now_add=True)
-    modified_at = models.DateTimeField(auto_now=True)
-
-    class Meta:
-        abstract = True
-
-
-class Budget(Timestampable, models.Model):
+class Budget(models.Model):
     subject = models.CharField(max_length=256, blank=True, null=True)
     konto = models.IntegerField(max_length=256, blank=True, null=True)
     revenue_expenses = models.CharField(max_length=256, blank=True, null=True)
