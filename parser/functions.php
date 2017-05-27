@@ -52,7 +52,7 @@ function parseData()
 
             $recipes[] = $recipe;
 
-            var_dump($recipe);
+            //var_dump($recipe);
         }
 
 
