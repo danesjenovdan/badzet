@@ -32,7 +32,7 @@ function parseData()
             $recipe = new stdClass();
 
             $recipe->NazivKorisnika = $row[0];
-            $recipe->Konto = $row[1];
+            $recipe->Konto = ($row[1]=='-') ? 0 : $row[1];
             $recipe->Klasa = ($row[2] == "Prihodi") ? 'income' : 'expense';
             $recipe->Klasifikacija = $row[3];
             $recipe->Naziv = $row[4];
@@ -69,6 +69,41 @@ function parseData()
     return $recipes;
 }
 
+function postData($data){
+
+    $url = 'http://badzet.knedl.si/api/set-data/';
+
+    $nk = $data->NazivKorisnika;
+    $ko = $data->Konto;
+    $kl = $data->Klasa;
+    $kla = $data->Klasifikacija;
+    $naziv = $data->Naziv;
+    $leto = $data->Leto;
+    $money = $data->Iznos;
+
+    $data = array(
+        "subject" => $nk,
+        "konto"=> $ko,
+        "revenue_expenses"=> $kl,
+        "classification"=> $kla,
+        "name"=> $naziv,
+        "year"=> $leto,
+        "money"=> $money,
+    );
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_AUTOREFERER, true);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    //curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data, JSON_UNESCAPED_UNICODE));
+
+    $result = curl_exec($ch);
+    curl_close($ch);
+
+}
 
 function saveData($data)
 {
@@ -84,7 +119,7 @@ function saveData($data)
 
     $sql = "
 				INSERT INTO
-					budget
+					badzet_budget
 				(
 				  subject, 
 				  konto, 
@@ -104,7 +139,6 @@ function saveData($data)
 				  '" . pg_escape_string($conn, $leto) . "',
 				  '" . pg_escape_string($conn, $money) . "'
 				  )
-				RETURNING id
 			";
 
     $done = false;

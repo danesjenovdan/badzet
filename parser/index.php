@@ -8,5 +8,6 @@ $data = parseData();
 
 foreach ($data as $item) {
     $ok = saveData($item);
+    //$ok = postData($item);
     var_dump($ok);
 }
