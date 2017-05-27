@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from badzet.views import get_data, set_data
+from badzet.views import get_data, set_data, groupBy
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
