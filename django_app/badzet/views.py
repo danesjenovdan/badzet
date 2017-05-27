@@ -47,12 +47,12 @@ def filter_model(request, objects):
 
     data = request.GET.get('year', None)
     if data:
-        years = map(int, data.split(','))
+        years = list(map(int, data.split(',')))
         objects = objects.filter(year__in=years)
 
     data = request.GET.get('money', None)
     if data:
-        money = map(int, data.split(','))
+        money = list(map(int, data.split(',')))
         objects = objects.filter(money__gte=money[0],
                                  money__lte=money[0])
     return objects
