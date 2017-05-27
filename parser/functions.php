@@ -127,7 +127,7 @@ function saveData($data)
 				  classification, 
 				  name, 
 				  year, 
-				  money, 
+				  money 
 				)
 				VALUES
 				(
