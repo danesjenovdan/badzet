@@ -54,7 +54,7 @@ def filter_model(request, objects):
     if data:
         money = list(map(int, data.split(',')))
         objects = objects.filter(money__gte=money[0],
-                                 money__lte=money[0])
+                                 money__lte=money[1])
     return objects
 
 
