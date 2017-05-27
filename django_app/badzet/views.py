@@ -58,6 +58,10 @@ def filter_model(request, objects):
     return objects
 
 
-
-
-
+def groupBy(request):
+    key = request.GET.get('key', None)
+    if key:
+        budgets = Budget.objects.values(key).annotate(total=Sum('money')).order_by("-total")
+        return JsonResponse({'data': list(budgets)})
+    else:
+        return JsonResponse({'info': 'set key for group'})
