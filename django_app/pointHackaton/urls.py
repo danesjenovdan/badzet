@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api/get-data/$', get_data),
     url(r'^api/set-data/$', get_data),
+    url(r'^api/group-by/$', groupBy),
 ]
