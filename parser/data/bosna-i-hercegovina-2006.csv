@@ -1,0 +1,996 @@
+Naziv korisnika;Konto;Klasa;Klasifikacija;Naziv;Iznos (KM)
+Bosna i Hercegovina;-;Prihodi;Grupa;Poreski prihodi;573.223.536,17
+Bosna i Hercegovina;712000;Prihodi;Podgrupa;Državni doprinosi;7.221.848,11
+Bosna i Hercegovina;712100;Prihodi;Sintetički konto;Državni doprinosi;7.221.848,11
+Bosna i Hercegovina;712100;Prihodi;Analitički konto;Državni doprinos za korištenje radio frekvencija;7.221.848,11
+Bosna i Hercegovina;717000;Prihodi;Podgrupa;Prihodi iz indirektnih poreza;566.000.000,00
+Bosna i Hercegovina;717100;Prihodi;Sintetički konto;Prihodi iz indirektnih poreza;566.000.000,00
+Bosna i Hercegovina;717100;Prihodi;Analitički konto;Prihodi od indirektnih poreza za finansiranje Institucija BiH;566.000.000,00
+Bosna i Hercegovina;719000;Prihodi;Podgrupa;Ostali porezi;1.688,06
+Bosna i Hercegovina;719100;Prihodi;Sintetički konto;Ostali porezi;1.688,06
+Bosna i Hercegovina;-;Prihodi;Grupa;Neporeski prihodi;85.835.183,94
+Bosna i Hercegovina;721000;Prihodi;Podgrupa;Prihodi od poduzetničkih aktivnosti i imovine i prihodi od pozitivnih kursnih lista;23.448.224,04
+Bosna i Hercegovina;721100;Prihodi;Sintetički konto;Prihodi od nefinansijskih javnih preduzeća i finansijskih javnih institucija;20.086.555,44
+Bosna i Hercegovina;721100;Prihodi;Analitički konto;Prihodi od dividendi i udjela u profitu CB BiH;19.665.872,49
+Bosna i Hercegovina;721100;Prihodi;Analitički konto;Prihodi od iznajmljivanja ostale materijalne imovine;250.682,95
+Bosna i Hercegovina;721100;Prihodi;Analitički konto;Prihodi od reklamiranja BiH na CNN-u;170.000,00
+Bosna i Hercegovina;721200;Prihodi;Sintetički konto;Ostali prihodi od imovine;2.536.838,72
+Bosna i Hercegovina;721200;Prihodi;Analitički konto;Kamate na budžetske depozite;2.459.872,32
+Bosna i Hercegovina;721200;Prihodi;Analitički konto;Kamate po osnovu sukcesije;40.171,28
+Bosna i Hercegovina;721200;Prihodi;Analitički konto;Prihodi od kamate za depozite u banci;30.012,88
+Bosna i Hercegovina;721200;Prihodi;Analitički konto;Popust, rabat, ostali prihodi;5.331,83
+Bosna i Hercegovina;721200;Prihodi;Analitički konto;Ostali prihodi;567,97
+Bosna i Hercegovina;721200;Prihodi;Analitički konto;Kamate na sredstva po viđenju;472,37
+Bosna i Hercegovina;721200;Prihodi;Analitički konto;Kamate po osnovu sukcesije;283,70
+Bosna i Hercegovina;721200;Prihodi;Analitički konto;Ostali prihodi od imovine;126,37
+Bosna i Hercegovina;721500;Prihodi;Sintetički konto;Prihodi od pozitivnih kursnih razlika;808.723,44
+Bosna i Hercegovina;721500;Prihodi;Analitički konto;Obračunate kursne razlike;808.723,44
+Bosna i Hercegovina;721600;Prihodi;Sintetički konto;Prihodi od privatizacije;16.106,44
+Bosna i Hercegovina;721600;Prihodi;Analitički konto;Prihodi od tenderske dokumentacije;16.106,44
+Bosna i Hercegovina;722000;Prihodi;Podgrupa;Naknade, takse i prihodi od pružanja javnih usluga;59.669.218,86
+Bosna i Hercegovina;722100;Prihodi;Sintetički konto;Administrativne takse;9.568.845,16
+Bosna i Hercegovina;722100;Prihodi;Analitički konto;CRA - Prihodi od koris. brojeva - GSM;2.611.712,40
+Bosna i Hercegovina;722100;Prihodi;Analitički konto;CRA - Prihodi od pr. korist upr. GSM;2.100.000,00
+Bosna i Hercegovina;722100;Prihodi;Analitički konto;CRA - Prihodi od pr. koris. fix;1.500.169,85
+Bosna i Hercegovina;722100;Prihodi;Analitički konto;CRA . Naknada za mrezne operatere;823.957,32
+Bosna i Hercegovina;722100;Prihodi;Analitički konto;CRA - Prihodi od dozvola za emitovanje;610.826,77
+Bosna i Hercegovina;722100;Prihodi;Analitički konto;CRA - Prihodi rad. frek. - linkovi;517.473,45
+Bosna i Hercegovina;722100;Prihodi;Analitički konto;CRA - Naknada za korištenje OBK;340.592,18
+Bosna i Hercegovina;722100;Prihodi;Analitički konto;CRA - Naknada za BB-FT;333.170,50
+Bosna i Hercegovina;722100;Prihodi;Analitički konto;Naknada za održavanje Dozvole za pružanje fiksn.;312.146,75
+Bosna i Hercegovina;722100;Prihodi;Analitički konto;CRA - Prihodi internet - servis;196.082,87
+Bosna i Hercegovina;722100;Prihodi;Analitički konto;CRA - Administrativne i ostale naknade za dozvo;96.240,00
+Bosna i Hercegovina;722100;Prihodi;Analitički konto;CRA - Prihod od kablovske distribucije;79.678,10
+Bosna i Hercegovina;722100;Prihodi;Analitički konto;CRA - Prihod od izdavanja odobrenja za radio uređaje;27.999,97
+Bosna i Hercegovina;722100;Prihodi;Analitički konto;Naknade za obradu RF zahtjeva;18.795,00
+Bosna i Hercegovina;722200;Prihodi;Sintetički konto;Sudske takse;222.489,41
+Bosna i Hercegovina;722200;Prihodi;Analitički konto;Takse pred Sudom BiH - Tarifa 1;100.394,41
+Bosna i Hercegovina;722200;Prihodi;Analitički konto;Takse pred Sudom BiH - Tarifa 3;98.965,00
+Bosna i Hercegovina;722200;Prihodi;Analitički konto;Taksa pred Sudom BiH - Tarifa 4;23.130,00
+Bosna i Hercegovina;722500;Prihodi;Sintetički konto;Posebne naknade i takse;621.500,00
+Bosna i Hercegovina;722500;Prihodi;Analitički konto;Prihodi od taksa političkih partija;621.500,00
+Bosna i Hercegovina;722600;Prihodi;Sintetički konto;Prihodi od pružanja javnih usluga (prihodi od sopstvenih djelatnosti);14.826.362,06
+Bosna i Hercegovina;722600;Prihodi;Analitički konto;Konzularne takse;11.043.000,20
+Bosna i Hercegovina;722600;Prihodi;Analitički konto;Prihodi BHDCA - Eurocontrol;2.307.962,93
+Bosna i Hercegovina;722600;Prihodi;Analitički konto;Prihodi od putnih isprava koje izdaje DKP BiH;1.465.147,93
+Bosna i Hercegovina;722600;Prihodi;Analitički konto;Prihodi od ovjere dokumenata;7.622,00
+Bosna i Hercegovina;722600;Prihodi;Analitički konto;Prihodi od izdavanja izvoda iz matične knjige;2.433,00
+Bosna i Hercegovina;722600;Prihodi;Analitički konto;Prihodi od ovjere isprava izdanih od DKP-ova;196,00
+Bosna i Hercegovina;722700;Prihodi;Sintetički konto;Neplanirane uplate-prihodi;7.233.040,62
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihodi od zahtjeva za prestanak državljanstva;3.379.183,31
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihodi od dozvola za obavljanje međunarodnog.;3.158.896,06
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihodi od izdavanja dozvola u međunarodnim ce.;373.503,53
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihodi od ovjere potpisa i pečata u MCPK;92.072,00
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihodi od dozvola za obavljanje muđunarodnog.;84.820,90
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihod od medj. dozvola za prevoz putnika;84.616,16
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Naknada za upis u registar vjerskih zajednica;18.755,00
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihodi od ovjere reda vožnje za međuentitetsk.;17.485,00
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihodi od registracije fondacija;16.300,00
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihodi od zahtjeva za izdavanje službenog pasoša;5.290,00
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Takse - Tarifni broj 102;898,66
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihodi od odobravanja stranom pravnom ili fizičkom...;465,00
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihodi od zahtjeva za izdavanje putne isprave;260,00
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihodi od dozvola po osnovu izvanrednog prevoz;180,00
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihodi od rješenja kojim se stranom fizičkom i ..;175,00
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihodi od rješenja o upisu i brisanju iz registra;50,00
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihodi od rješenja kojim se određuje ime;45,00
+Bosna i Hercegovina;722700;Prihodi;Analitički konto;Prihodi od rješenja kojim se odobrava prvi upis;45,00
+Bosna i Hercegovina;722800;Prihodi;Sintetički konto;Prihodi od pružanja javnih usluga MVT;12.998.904,78
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Naknada troškova štampanja i kupovine poreskih;3.452.798,88
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 86;3.152.387,40
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 41;1.151.926,65
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Prihodi od izdavanja rješenja o nepost. vet-zdrav. smetnj.;903.010,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 87;856.141,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Prihodi od izdavanja uvjerenja o porijeklu proi.;812.806,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 84;746.777,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 83;491.576,57
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 96;380.598,56
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Prihodi od naknada za polaganje stručnog upravn.;134.305,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Veterinarsko-zdravstvena svjedodžba za ostale c.;117.370,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Veterinarsko-zdravstvena svjedodžba za proizvod;117.362,95
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Prihodi od izdavanja rješenja o registraciji st.;108.555,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Naknada troškova za pružene usluge davanja podataka;107.853,40
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 88;99.719,35
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 107 - Konkurencijsko vijeće;62.000,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 53;48.160,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 106 - Konkurencijsko vijeće;37.749,99
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 50;27.916,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse  - Tarifni broj 43;26.713,50
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 85;26.103,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Naknada troškova polaganja pravosudnog ispita;21.370,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 95;19.767,42
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 54;11.976,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse  - Tarifni broj 105;10.965,82
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 40;9.343,50
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Veterinarsko-zdravstvena svjedodžba za sirovine;8.100,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Naknada troškova po fitosanitarnim zahtjevima;6.535,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 76;6.180,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 68;4.311,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 77;3.925,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 58;3.530,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Veterinarsko-zdravstvena svjedodžba za pse i mačke;3.025,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 73;2.925,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 44;2.835,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Naknada tros. za usluge i publ. Agencije za statistiku;2.720,79
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 91;2.210,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 80;2.040,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Svjedodžba službenog veterinara za stočnu hranu;2.005,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Veterinarsko-zdravstvena svjedodžba BA-UVBH-VZ;1.715,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 67;1.520,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 55;1.500,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 42;1.450,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 57;1.220,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 90;905,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 81;630,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Svjedodžba o porijeklu i zdravlju domaće i divlj.;620,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 69;585,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 71;495,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 94;450,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 63;360,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 64;300,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 66;295,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 93;225,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 92;125,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 59;125,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 60;115,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 74;105,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 51;100,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 75;90,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 72;80,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 52;70,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 79;50,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 56;50,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 49;35,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Prihodi od izdavanja rješenja za carinjenje robe;25,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 48;20,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 70;20,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 82;10,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 47;10,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 78;5,00
+Bosna i Hercegovina;722800;Prihodi;Analitički konto;Takse - Tarifni broj 104;5,00
+Bosna i Hercegovina;722900;Prihodi;Sintetički konto;Ostali prihodi od pružanja javnih usluga;14.198.076,83
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Prihodi od knjižica za pasoše;5.058.696,51
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Uplata za vozačke dozvole;4.139.474,20
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Uplata za ličnu kartu;2.534.926,40
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Prihodi od zahtjeva, molbi, prijedloga prijava;1.447.390,93
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Prihodi od Registra zaloga;450.883,00
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Prihodi od rješenja za koja nije propisana posebna;304.021,92
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Prihodi od izdatih uvjerenja;100.158,88
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Prihodi - viza-stiker za stranca;55.999,40
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Prihodi od žalbi protiv rješenja;37.505,00
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Prihodi od taksi na podneske kojim se traži mis.;31.245,00
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Prihodi - lična karta za stranca;14.465,00
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Uplata za saobraćajnu dozvolu;9.079,50
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Prihodi od ulaznih viza - DGS;6.010,09
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Takse - Tarifni broj 97;5.380,00
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Takse - Tarifni broj 99;1.320,00
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Takse - Tarifni broj 98;765,00
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Takse koje se uplaćuju za upis u Registar;436,00
+Bosna i Hercegovina;722900;Prihodi;Analitički konto;Prihodi - putni list za stranca;320,00
+Bosna i Hercegovina;723000;Prihodi;Podgrupa;Novčane kazne (neporeske prirode);2.717.741,04
+Bosna i Hercegovina;723100;Prihodi;Sintetički konto;Novčane kazne;2.717.741,04
+Bosna i Hercegovina;723100;Prihodi;Analitički konto;Prihodi po osnovu oduzim. protivpravno stečene imovine;1.296.493,39
+Bosna i Hercegovina;723100;Prihodi;Analitički konto;Prihodi od kazni u kaznenom postupku;498.405,29
+Bosna i Hercegovina;723100;Prihodi;Analitički konto;Novčane kazne za prekršaje;382.086,36
+Bosna i Hercegovina;723100;Prihodi;Analitički konto;Prihod od kazni po odredbama Zakona o konkurenc.;325.001,47
+Bosna i Hercegovina;723100;Prihodi;Analitički konto;CRA - Prihodi od kazni za prekršaje;137.339,70
+Bosna i Hercegovina;723100;Prihodi;Analitički konto;Prihodi od trajno oduzetih predmeta - Sud BiH;67.814,85
+Bosna i Hercegovina;723100;Prihodi;Analitički konto;Ostali prihodi;10.599,98
+Bosna i Hercegovina;-;Prihodi;Grupa;Transferi i donacije;41.576.199,43
+Bosna i Hercegovina;731000;Prihodi;Podgrupa;Tekuće potpore iz inostranstva;16.750.782,15
+Bosna i Hercegovina;731100;Prihodi;Sintetički konto;Tekuće potpore iz inostranstva;16.750.782,15
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija Grčke;8.157.118,48
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija Norveške za Visoko sudsko i tuž. vijeće;1.955.634,42
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija Evropske komisije za Visoko sudsko i tuž. vijeće;1.859.406,56
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija UNHCR 1 (veliki projekat);1.001.639,17
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija za MIP;572.966,05
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija MLJP - jačanje lokalne samouprave;420.303,96
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija SAD-a za Ministarstvo odbrane;415.709,47
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija UNHCR Ministarstvu sigurnosti;281.380,00
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija EK EURED Nac. spom;270.373,49
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija Evropske komisije za Komisiju za ljudska prava pri Ustavnom sudu BiH;235.909,25
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija EU za CARDS;207.505,50
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija Vlade Norveške OSA-OBA;203.573,82
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija UNICEF-a za M.LJ.P.;180.436,12
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija za SIPA-u;100.000,00
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija Poljske BHMAK;97.752,38
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija OSA-OBA;84.280,63
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija za Komisiju za očuvanje nacionalnih spomenika;72.776,43
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija ADE projekt;68.454,05
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija Ministarstvu odbrane prijateljskih zemalja;64.358,15
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija Španske agen. vts;54.763,24
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija za MCP;51.912,05
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija za M.LJ.P.;51.336,62
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija za CIPS - IMG;51.000,00
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija za Vijeće ministara;48.110,40
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija UNFPA za statistička istraživanja;47.704,69
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Fonacija Fond američke ambasade Nac. spom.;37.600,00
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija EZ  SEE-ERA-NET;33.346,45
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija za borbu protiv trgovine ljudima;25.000,80
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija Italije statistici;21.345,48
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Sredstva za komisiju za reviziju državljanstva;15.255,47
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija Vijeća Evrope Komisiji za nacionalne spomenike;14.193,45
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija za Ministarstvo odbrane;12.886,60
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija CADES - Komisiji za nacionalne spomenike;10.162,49
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija Vijeća Evrope VSTS;9.000,73
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija statis. UNICEF;6.243,70
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;MAC - Donacija UNICEF-a;6.027,94
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija TRISTAN EAST;3.905,91
+Bosna i Hercegovina;731100;Prihodi;Analitički konto;Donacija statis. projekat PPP;1.408,20
+Bosna i Hercegovina;732000;Prihodi;Podgrupa;Primljeni tekući transferi od ostalih nivoa vlasti;5.400,00
+Bosna i Hercegovina;732100;Prihodi;Sintetički konto;Primljeni tekući transferi od ostalih nivoa vlasti;5.400,00
+Bosna i Hercegovina;732100;Prihodi;Analitički konto;Donacija za Komisiju za očuvanje nacionalnih spomenika;5.400,00
+Bosna i Hercegovina;734000;Prihodi;Podgrupa;Vlastiti prihodi;3.546.771,88
+Bosna i Hercegovina;734100;Prihodi;Sintetički konto;Vlastiti prihodi;3.546.771,88
+Bosna i Hercegovina;735000;Prihodi;Podgrupa;Vanredni prihodi;936.138,04
+Bosna i Hercegovina;735100;Prihodi;Sintetički konto;Vanredni prihodi;936.138,04
+Bosna i Hercegovina;735100;Prihodi;Analitički konto;Vanredni prihodi;525.411,11
+Bosna i Hercegovina;735100;Prihodi;Analitički konto;Prihod od prodaje osnovnog sredstva;180.505,07
+Bosna i Hercegovina;735100;Prihodi;Analitički konto;Vanredni prihod - revizija obav. - Zakon o unutrašnjem dugu;70.095,22
+Bosna i Hercegovina;735100;Prihodi;Analitički konto;Prihod od RS za SECI centar;57.050,83
+Bosna i Hercegovina;735100;Prihodi;Analitički konto;Prihodi od kazni po odluci Centralne izborne komisije;41.481,61
+Bosna i Hercegovina;735100;Prihodi;Analitički konto;Prihodi od naplate štete po osnovu osigur. osnovnih ...;28.085,41
+Bosna i Hercegovina;735100;Prihodi;Analitički konto;Prihod od preusmje. sredstava za finansiranje SDS-...;13.369,68
+Bosna i Hercegovina;735100;Prihodi;Analitički konto;Sredstva za Koordinac. odbor Ureda za reviziju;10.500,00
+Bosna i Hercegovina;735100;Prihodi;Analitički konto;Vanredni prihod iz ranijeg perioda - MVP;9.577,10
+Bosna i Hercegovina;735100;Prihodi;Analitički konto;Usaglašavanje računa - Prihodi;62,01
+Bosna i Hercegovina;736000;Prihodi;Podgrupa;Kontribucije entiteta;20.337.107,36
+Bosna i Hercegovina;736100;Prihodi;Sintetički konto;Kontribucije entiteta;20.337.107,36
+Bosna i Hercegovina;736100;Prihodi;Analitički konto;Prihod po osnovu izdatih GSM licenci;12.886.908,00
+Bosna i Hercegovina;736100;Prihodi;Analitički konto;Prihod od RS - Fond za povratak BiH;4.000.000,00
+Bosna i Hercegovina;736100;Prihodi;Analitički konto;Prihod od FED - Fond za povratak BiH;2.500.000,00
+Bosna i Hercegovina;736100;Prihodi;Analitički konto;Prihod od Vlade Brčko Distrikt - Fond za povratak;650.000,00
+Bosna i Hercegovina;736100;Prihodi;Analitički konto;Sredstva za obnovu gradske geodetske mreže;214.041,76
+Bosna i Hercegovina;736100;Prihodi;Analitički konto;Prihod od RS - Komisija za restituciju BiH;72.000,00
+Bosna i Hercegovina;736100;Prihodi;Analitički konto;Prihod od Vlade Brčko Distrikt - Komisija za restituciju;14.157,60
+Bosna i Hercegovina;-;Prihodi;Grupa;Primici od imovine;160.495,63
+Bosna i Hercegovina;811000;Prihodi;Podgrupa;Kapitalni primici od prodaje stalnih sredstava;160.495,63
+Bosna i Hercegovina;811100;Prihodi;Sintetički konto;Primci od prodaje stalnih sredstava;160.495,63
+Bosna i Hercegovina;811100;Prihodi;Analitički konto;Primici od prodaje prometnih vozila;117.150,00
+Bosna i Hercegovina;811100;Prihodi;Analitički konto;Ostali kapitalni primici;43.038,84
+Bosna i Hercegovina;811100;Prihodi;Analitički konto;Primici od prodaje tvorničkih objekata i opreme;306,79
+Bosna i Hercegovina;-;Prihodi;Grupa;Primici od zaduživanja;0,00
+Bosna i Hercegovina;-;Prihodi;Grupa;Ostali prihodi;0,00
+Bosna i Hercegovina;-;Rashodi;Grupa;Lična primanja;438.637.588,00
+Bosna i Hercegovina;611000;Rashodi;Podgrupa;Plaće i naknade troškova zaposlenih;438.637.588,00
+Bosna i Hercegovina;611100;Rashodi;Rashodi po korisnicima - sumarno;Bruto plaće;339.081.490,90
+Ministarstvo odbrane BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo odbrane BiH;161.611.831,44
+Uprava za indirektno oporezivanje BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za indirektno oporezivanje BiH;40.182.548,57
+Granicna policija BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Granicna policija BiH;37.094.332,00
+Ministarstvo vanjskih poslova BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjskih poslova BiH;17.166.079,00
+Državna agencija za istrage i zaštitu;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Državna agencija za istrage i zaštitu;17.018.167,00
+Obavještajno- sigurnosna agencija BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Obavještajno- sigurnosna agencija BiH;14.360.915,00
+Parlamentarna skupština BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Parlamentarna skupština BiH;4.007.597,00
+Regulatorna agencija za komunikacije BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Regulatorna agencija za komunikacije BiH;3.148.875,00
+Sud BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Sud BiH;3.082.585,00
+Ustavni sud BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Ustavni sud BiH;2.903.577,00
+Ministarstvo pravde BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo pravde BiH;2.900.853,00
+Centar za uklanjanje mina u BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Centar za uklanjanje mina u BiH;2.778.923,87
+Visoko sudsko i tužilacko vijece BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Visoko sudsko i tužilacko vijece BiH;2.583.492,05
+Predsjedništvo BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Predsjedništvo BiH;2.484.000,48
+Služba za zajednicke poslove institucija BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za zajednicke poslove institucija BiH;2.232.089,00
+Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;2.102.002,00
+Tužilaštvo BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Tužilaštvo BiH;1.964.426,00
+Ministarstvo sigurnosti BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo sigurnosti BiH;1.809.473,00
+Ministarstvo za ljudska prava i izbjeglice BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo za ljudska prava i izbjeglice BiH;1.687.679,00
+Središnja izborna komisija BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Središnja izborna komisija BiH;1.494.531,83
+Ministarstvo civilnih poslova BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo civilnih poslova BiH;1.415.538,00
+Ministarstvo finansija i trezora BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo finansija i trezora BiH;1.412.938,00
+Ministarstvo komunikacija i prometa BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo komunikacija i prometa BiH;1.231.705,00
+Generalni sekretarijat Vijeca ministara BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Generalni sekretarijat Vijeca ministara BiH;1.004.398,71
+Direkcija za evropske integracije BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za evropske integracije BiH;898.732,00
+Državna regulatorna komisija za elektricnu energiju;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Državna regulatorna komisija za elektricnu energiju;883.937,00
+Ured za reviziju institucija BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za reviziju institucija BiH;859.996,00
+Direkcija za civilno vazduhoplovstvo BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za civilno vazduhoplovstvo BiH;736.394,95
+Ured za veterinarstvo BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za veterinarstvo BiH;677.885,00
+Agencija za statistiku BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za statistiku BiH;675.068,00
+Institucija ombudsmana za ljudska prava BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Institucija ombudsmana za ljudska prava BiH;573.180,00
+Konkurencijsko vijece BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Konkurencijsko vijece BiH;481.429,00
+Agencija za promociju stranih ulaganja u BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za promociju stranih ulaganja u BiH;453.578,00
+Služba za poslove sa strancima;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za poslove sa strancima;422.102,00
+Agencija za rad i zapošljavanje BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za rad i zapošljavanje BiH;397.291,00
+Komisija za koncesije;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za koncesije;380.920,00
+Institut za mjeriteljstvo BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za mjeriteljstvo BiH;376.520,00
+Institut za standarde BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za standarde BiH;359.305,00
+Agencija za državnu službu BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za državnu službu BiH;339.912,00
+Komisija za ocuvanje nacionalnih spomenika BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za ocuvanje nacionalnih spomenika BiH;333.583,00
+Pravobranilaštvo BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Pravobranilaštvo BiH;323.123,00
+Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;298.308,00
+Institut za intelektualno vlasništvo BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za intelektualno vlasništvo BiH;295.732,00
+Institut za akreditiranje BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za akreditiranje BiH;259.595,00
+Arhiv BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Arhiv BiH;222.982,00
+Ured za zakonodavstvo;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za zakonodavstvo;163.923,00
+Agencija za javne nabavke BiH;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za javne nabavke BiH;158.958,00
+Odbor državne službe za žalbe;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Odbor državne službe za žalbe;149.122,00
+Agencija za oznacavanje životinja;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za oznacavanje životinja;144.449,00
+Fond za povratak;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Fond za povratak;130.003,00
+Ured za razmatranje žalbi po javnim nabavkama;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za razmatranje žalbi po javnim nabavkama;123.202,00
+Agencija za sigurnost hrane;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za sigurnost hrane;113.347,00
+Uprava za zaštitu zdravlja bilja;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za zaštitu zdravlja bilja;67.060,00
+Agencija za nadzor nad tržištem;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za nadzor nad tržištem;45.073,00
+Komisija za imovinske zahtjeve;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za imovinske zahtjeve;41.701,00
+Agencija za osiguranje u Bosni i Hercegovini;611100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za osiguranje u Bosni i Hercegovini;16.523,00
+Bosna i Hercegovina;611200;Rashodi;Rashodi po korisnicima - sumarno;Naknade troškova zaposlenih ;99.556.097,10
+Ministarstvo odbrane BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo odbrane BiH;41.953.348,18
+Ministarstvo vanjskih poslova BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjskih poslova BiH;10.704.102,00
+Uprava za indirektno oporezivanje BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za indirektno oporezivanje BiH;10.699.460,13
+Granicna policija BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Granicna policija BiH;9.506.982,00
+Državna agencija za istrage i zaštitu;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Državna agencija za istrage i zaštitu;4.478.693,00
+Obavještajno- sigurnosna agencija BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Obavještajno- sigurnosna agencija BiH;4.389.353,00
+Središnja izborna komisija BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Središnja izborna komisija BiH;3.226.662,00
+Parlamentarna skupština BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Parlamentarna skupština BiH;1.976.987,00
+Ministarstvo sigurnosti BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo sigurnosti BiH;1.020.708,04
+Ministarstvo pravde BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo pravde BiH;988.597,90
+Služba za zajednicke poslove institucija BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za zajednicke poslove institucija BiH;780.583,00
+Ministarstvo civilnih poslova BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo civilnih poslova BiH;747.353,16
+Centar za uklanjanje mina u BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Centar za uklanjanje mina u BiH;690.430,00
+Ustavni sud BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Ustavni sud BiH;687.623,52
+Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;547.008,00
+Ministarstvo za ljudska prava i izbjeglice BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo za ljudska prava i izbjeglice BiH;535.370,91
+Predsjedništvo BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Predsjedništvo BiH;526.459,34
+Direkcija za evropske integracije BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za evropske integracije BiH;515.583,00
+Regulatorna agencija za komunikacije BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Regulatorna agencija za komunikacije BiH;459.358,00
+Ministarstvo komunikacija i prometa BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo komunikacija i prometa BiH;427.131,00
+Generalni sekretarijat Vijeca ministara BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Generalni sekretarijat Vijeca ministara BiH;405.793,35
+Ministarstvo finansija i trezora BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo finansija i trezora BiH;337.678,50
+Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;309.360,70
+Visoko sudsko i tužilacko vijece BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Visoko sudsko i tužilacko vijece BiH;296.054,97
+Direktorat za policiju;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Direktorat za policiju;290.422,00
+Direkcija za civilno vazduhoplovstvo BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za civilno vazduhoplovstvo BiH;265.754,96
+Sud BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Sud BiH;245.060,00
+Ured za veterinarstvo BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za veterinarstvo BiH;197.042,00
+Ured za reviziju institucija BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za reviziju institucija BiH;170.921,50
+Agencija za promociju stranih ulaganja u BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za promociju stranih ulaganja u BiH;160.445,00
+Agencija za državnu službu BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za državnu službu BiH;147.958,53
+Tužilaštvo BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Tužilaštvo BiH;146.133,00
+Služba za poslove sa strancima;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za poslove sa strancima;131.560,00
+Agencija za statistiku BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za statistiku BiH;130.911,00
+Konkurencijsko vijece BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Konkurencijsko vijece BiH;120.684,21
+Komisija za koncesije;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za koncesije;115.460,00
+Komisija za ocuvanje nacionalnih spomenika BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za ocuvanje nacionalnih spomenika BiH;104.075,00
+Institucija ombudsmana za ljudska prava BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Institucija ombudsmana za ljudska prava BiH;94.389,00
+Državna regulatorna komisija za elektricnu energiju;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Državna regulatorna komisija za elektricnu energiju;92.925,00
+Agencija za rad i zapošljavanje BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za rad i zapošljavanje BiH;90.968,75
+Pravobranilaštvo BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Pravobranilaštvo BiH;85.339,00
+Institut za mjeriteljstvo BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za mjeriteljstvo BiH;83.494,00
+Agencija za sigurnost hrane;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za sigurnost hrane;79.145,00
+Institut za intelektualno vlasništvo BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za intelektualno vlasništvo BiH;71.995,00
+Institut za standarde BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za standarde BiH;69.741,00
+Agencija za osiguranje u Bosni i Hercegovini;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za osiguranje u Bosni i Hercegovini;64.676,00
+Agencija za javne nabavke BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za javne nabavke BiH;64.182,00
+Ured za zakonodavstvo;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za zakonodavstvo;58.185,00
+Arhiv BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Arhiv BiH;54.797,00
+Institut za akreditiranje BiH;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za akreditiranje BiH;47.174,45
+Agencija za oznacavanje životinja;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za oznacavanje životinja;44.971,00
+Fond za povratak;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Fond za povratak;29.351,00
+Ured za razmatranje žalbi po javnim nabavkama;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za razmatranje žalbi po javnim nabavkama;27.425,00
+Komisija za imovinske zahtjeve;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za imovinske zahtjeve;17.030,00
+Odbor državne službe za žalbe;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Odbor državne službe za žalbe;16.649,00
+Agencija za nadzor nad tržištem;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za nadzor nad tržištem;13.391,00
+Uprava za zaštitu zdravlja bilja;611200;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za zaštitu zdravlja bilja;13.161,00
+Bosna i Hercegovina;-;Rashodi;Grupa;Rashodi za materijal i usluge;143.444.874,28
+Bosna i Hercegovina;613000;Rashodi;Podgrupa;Izdaci za materijal i usluge;143.444.874,28
+Bosna i Hercegovina;613100;Rashodi;Rashodi po korisnicima - sumarno;Putni troškovi;14.567.063,48
+Ministarstvo odbrane BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo odbrane BiH;5.251.294,90
+Ministarstvo vanjskih poslova BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjskih poslova BiH;1.519.404,00
+Parlamentarna skupština BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Parlamentarna skupština BiH;730.467,50
+Državna agencija za istrage i zaštitu;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Državna agencija za istrage i zaštitu;710.335,00
+Predsjedništvo BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Predsjedništvo BiH;675.886,53
+Direkcija za civilno vazduhoplovstvo BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za civilno vazduhoplovstvo BiH;470.995,80
+Generalni sekretarijat Vijeca ministara BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Generalni sekretarijat Vijeca ministara BiH;448.658,74
+Uprava za indirektno oporezivanje BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za indirektno oporezivanje BiH;428.796,20
+Ministarstvo sigurnosti BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo sigurnosti BiH;372.340,01
+Ministarstvo civilnih poslova BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo civilnih poslova BiH;359.093,68
+Ministarstvo komunikacija i prometa BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo komunikacija i prometa BiH;332.588,00
+Granicna policija BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Granicna policija BiH;293.528,00
+Obavještajno- sigurnosna agencija BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Obavještajno- sigurnosna agencija BiH;287.963,00
+Regulatorna agencija za komunikacije BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Regulatorna agencija za komunikacije BiH;249.415,04
+Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;220.596,20
+Ministarstvo za ljudska prava i izbjeglice BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo za ljudska prava i izbjeglice BiH;203.312,45
+Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;196.913,29
+Direkcija za evropske integracije BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za evropske integracije BiH;193.580,66
+Ministarstvo finansija i trezora BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo finansija i trezora BiH;149.533,70
+Visoko sudsko i tužilacko vijece BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Visoko sudsko i tužilacko vijece BiH;141.709,28
+Agencija za promociju stranih ulaganja u BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za promociju stranih ulaganja u BiH;134.924,00
+Ministarstvo pravde BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo pravde BiH;111.226,00
+Agencija za rad i zapošljavanje BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za rad i zapošljavanje BiH;92.843,00
+Državna regulatorna komisija za elektricnu energiju;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Državna regulatorna komisija za elektricnu energiju;88.395,00
+Ustavni sud BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Ustavni sud BiH;67.338,00
+Komisija za ocuvanje nacionalnih spomenika BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za ocuvanje nacionalnih spomenika BiH;65.775,05
+Institut za akreditiranje BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za akreditiranje BiH;63.161,51
+Institut za mjeriteljstvo BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za mjeriteljstvo BiH;61.347,00
+Ured za veterinarstvo BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za veterinarstvo BiH;60.778,00
+Agencija za statistiku BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za statistiku BiH;55.212,82
+Institucija ombudsmana za ljudska prava BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Institucija ombudsmana za ljudska prava BiH;54.877,00
+Centar za uklanjanje mina u BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Centar za uklanjanje mina u BiH;45.169,00
+Tužilaštvo BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Tužilaštvo BiH;44.594,00
+Središnja izborna komisija BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Središnja izborna komisija BiH;44.003,25
+Institut za intelektualno vlasništvo BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za intelektualno vlasništvo BiH;38.165,00
+Ured za reviziju institucija BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za reviziju institucija BiH;29.712,00
+Konkurencijsko vijece BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Konkurencijsko vijece BiH;28.694,00
+Institut za standarde BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za standarde BiH;26.461,00
+Agencija za sigurnost hrane;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za sigurnost hrane;24.942,00
+Sud BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Sud BiH;21.990,00
+Projekat CIPS;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Projekat CIPS;19.177,60
+Pravobranilaštvo BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Pravobranilaštvo BiH;17.849,00
+Agencija za javne nabavke BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za javne nabavke BiH;14.609,00
+Arhiv BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Arhiv BiH;14.191,27
+Komisija za koncesije;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za koncesije;13.558,00
+Komisija za imovinske zahtjeve;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za imovinske zahtjeve;13.281,00
+Služba za poslove sa strancima;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za poslove sa strancima;12.389,00
+Uprava za zaštitu zdravlja bilja;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za zaštitu zdravlja bilja;12.274,00
+Agencija za državnu službu BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za državnu službu BiH;12.058,00
+Agencija za oznacavanje životinja;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za oznacavanje životinja;9.569,00
+Ured za razmatranje žalbi po javnim nabavkama;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za razmatranje žalbi po javnim nabavkama;6.877,00
+Agencija za osiguranje u Bosni i Hercegovini;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za osiguranje u Bosni i Hercegovini;5.547,00
+Služba za zajednicke poslove institucija BiH;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za zajednicke poslove institucija BiH;5.270,00
+Direktorat za policiju;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Direktorat za policiju;5.013,00
+Ured za zakonodavstvo;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za zakonodavstvo;4.420,00
+Fond za povratak;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Fond za povratak;2.817,00
+Agencija za nadzor nad tržištem;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za nadzor nad tržištem;1.421,00
+Odbor državne službe za žalbe;613100;Rashodi;Rashodi po korisnicima - sintetički konto;Odbor državne službe za žalbe;723,00
+Bosna i Hercegovina;613200;Rashodi;Rashodi po korisnicima - sumarno;Izdaci telefonskih i poštanskih usluga;10.888.050,89
+Ministarstvo vanjskih poslova BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;2.371.803,00
+Uprava za indirektno oporezivanje BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;2.010.734,21
+Ministarstvo odbrane BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;1.118.711,40
+Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;654.200,63
+Projekat CIPS;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;450.718,33
+Granicna policija BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;415.303,00
+Obavještajno- sigurnosna agencija BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;392.014,00
+Predsjedništvo BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;357.375,71
+Državna agencija za istrage i zaštitu;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;283.162,00
+Ministarstvo finansija i trezora BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;183.601,39
+Ministarstvo sigurnosti BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;171.450,75
+Parlamentarna skupština BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;164.028,25
+Ministarstvo civilnih poslova BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;162.143,42
+Ministarstvo pravde BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;147.759,00
+Generalni sekretarijat Vijeca ministara BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;146.746,37
+Središnja izborna komisija BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;146.233,49
+Ministarstvo za ljudska prava i izbjeglice BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;135.833,54
+Regulatorna agencija za komunikacije BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;131.380,00
+Ministarstvo komunikacija i prometa BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;127.152,00
+Centar za uklanjanje mina u BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;122.474,00
+Ustavni sud BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;93.080,98
+Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;91.041,29
+Direkcija za civilno vazduhoplovstvo BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;90.337,10
+Sud BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;80.822,00
+Visoko sudsko i tužilacko vijece BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;75.369,83
+Direkcija za evropske integracije BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;70.037,40
+Ured za veterinarstvo BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;56.118,20
+Agencija za promociju stranih ulaganja u BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;54.361,00
+Institucija ombudsmana za ljudska prava BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;49.322,00
+Agencija za statistiku BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;40.756,00
+Služba za zajednicke poslove institucija BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;40.681,00
+Tužilaštvo BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;39.072,00
+Državna regulatorna komisija za elektricnu energiju;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;38.918,00
+Ured za reviziju institucija BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;34.223,00
+Agencija za rad i zapošljavanje BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;31.268,00
+Agencija za državnu službu BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;25.516,00
+Direktorat za policiju;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;24.802,00
+Komisija za ocuvanje nacionalnih spomenika BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;23.826,00
+Konkurencijsko vijece BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;23.604,00
+Pravobranilaštvo BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;22.254,00
+Komisija za koncesije;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;20.549,00
+Institut za mjeriteljstvo BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;20.093,00
+Institut za standarde BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;15.389,00
+Institut za intelektualno vlasništvo BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;15.261,00
+Služba za poslove sa strancima;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;12.733,00
+Ured za razmatranje žalbi po javnim nabavkama;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;12.054,00
+Institut za akreditiranje BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;11.180,60
+Agencija za sigurnost hrane;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;11.000,00
+Ured za zakonodavstvo;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;10.554,00
+Uprava za zaštitu zdravlja bilja;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;10.541,00
+Agencija za javne nabavke BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;9.501,00
+Komisija za imovinske zahtjeve;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;9.062,00
+Agencija za oznacavanje životinja;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;8.708,00
+Fond za povratak;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;7.423,00
+Odbor državne službe za žalbe;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;6.206,00
+Arhiv BiH;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;4.779,00
+Agencija za osiguranje u Bosni i Hercegovini;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;2.412,00
+Agencija za nadzor nad tržištem;613200;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci telefonskih i poštanskih usluga;2.371,00
+Bosna i Hercegovina;613300;Rashodi;Rashodi po korisnicima - sumarno;Izdaci za energiju i komunalne usluge;17.486.334,14
+Ministarstvo odbrane BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;10.209.978,77
+Uprava za indirektno oporezivanje BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;1.314.000,00
+Služba za zajednicke poslove institucija BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;1.198.924,00
+Ministarstvo vanjskih poslova BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;1.110.699,00
+Projekat CIPS;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;560.672,30
+Granicna policija BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;484.791,00
+Ministarstvo za ljudska prava i izbjeglice BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;456.250,30
+Obavještajno- sigurnosna agencija BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;294.868,00
+Državna agencija za istrage i zaštitu;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;276.956,00
+Ministarstvo pravde BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;194.203,00
+Predsjedništvo BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;183.223,65
+Sud BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;130.348,00
+Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;117.690,74
+Centar za uklanjanje mina u BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;90.630,00
+Regulatorna agencija za komunikacije BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;82.755,28
+Ustavni sud BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;73.636,69
+Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;71.014,00
+Tužilaštvo BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;63.237,00
+Visoko sudsko i tužilacko vijece BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;62.762,02
+Ministarstvo sigurnosti BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;54.347,00
+Ministarstvo finansija i trezora BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;45.931,00
+Direkcija za civilno vazduhoplovstvo BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;36.263,81
+Središnja izborna komisija BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;29.782,72
+Ministarstvo komunikacija i prometa BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;23.597,00
+Institut za standarde BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;22.997,00
+Državna regulatorna komisija za elektricnu energiju;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;22.944,00
+Agencija za statistiku BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;19.747,00
+Ured za veterinarstvo BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;19.372,00
+Institut za mjeriteljstvo BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;19.124,00
+Agencija za promociju stranih ulaganja u BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;17.546,00
+Institut za akreditiranje BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;17.431,00
+Institucija ombudsmana za ljudska prava BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;16.808,00
+Institut za intelektualno vlasništvo BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;15.722,00
+Konkurencijsko vijece BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;14.805,00
+Agencija za rad i zapošljavanje BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;14.096,00
+Ministarstvo civilnih poslova BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;13.224,11
+Generalni sekretarijat Vijeca ministara BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;12.931,75
+Ured za reviziju institucija BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;12.759,00
+Agencija za oznacavanje životinja;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;12.552,00
+Komisija za ocuvanje nacionalnih spomenika BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;11.673,00
+Komisija za koncesije;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;9.739,00
+Pravobranilaštvo BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;9.650,00
+Direktorat za policiju;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;6.028,00
+Agencija za sigurnost hrane;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;5.000,00
+Ured za razmatranje žalbi po javnim nabavkama;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;4.329,00
+Agencija za javne nabavke BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;4.157,00
+Fond za povratak;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;3.977,00
+Uprava za zaštitu zdravlja bilja;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;3.961,00
+Komisija za imovinske zahtjeve;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;3.564,00
+Arhiv BiH;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;2.578,00
+Agencija za nadzor nad tržištem;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;1.397,00
+Služba za poslove sa strancima;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;942,00
+Agencija za osiguranje u Bosni i Hercegovini;613300;Rashodi;Rashodi po korisnicima - sintetički konto;Izdaci za energiju i komunalne usluge;719,00
+Bosna i Hercegovina;613400;Rashodi;Rashodi po korisnicima - sumarno;Nabavka materijala i sitnog inventara;18.489.500,72
+Ministarstvo odbrane BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo odbrane BiH;7.072.903,11
+Središnja izborna komisija BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Središnja izborna komisija BiH;1.741.854,77
+Projekat CIPS;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Projekat CIPS;1.575.543,04
+Uprava za indirektno oporezivanje BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za indirektno oporezivanje BiH;1.347.906,28
+Granicna policija BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Granicna policija BiH;1.317.600,00
+Državna agencija za istrage i zaštitu;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Državna agencija za istrage i zaštitu;706.077,00
+Služba za zajednicke poslove institucija BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za zajednicke poslove institucija BiH;685.385,00
+Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;531.301,42
+Ministarstvo za ljudska prava i izbjeglice BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo za ljudska prava i izbjeglice BiH;511.999,01
+Ministarstvo vanjskih poslova BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjskih poslova BiH;416.664,00
+Centar za uklanjanje mina u BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Centar za uklanjanje mina u BiH;286.792,00
+Agencija za oznacavanje životinja;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za oznacavanje životinja;271.610,22
+Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;212.367,00
+Ministarstvo pravde BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo pravde BiH;194.805,00
+Ministarstvo sigurnosti BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo sigurnosti BiH;161.247,78
+Obavještajno- sigurnosna agencija BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Obavještajno- sigurnosna agencija BiH;145.267,00
+Služba za poslove sa strancima;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za poslove sa strancima;115.899,00
+Predsjedništvo BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Predsjedništvo BiH;110.598,66
+Ured za veterinarstvo BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za veterinarstvo BiH;82.419,91
+Ministarstvo komunikacija i prometa BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo komunikacija i prometa BiH;80.382,72
+Parlamentarna skupština BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Parlamentarna skupština BiH;74.361,41
+Ministarstvo civilnih poslova BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo civilnih poslova BiH;69.996,37
+Ustavni sud BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Ustavni sud BiH;65.805,69
+Regulatorna agencija za komunikacije BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Regulatorna agencija za komunikacije BiH;59.071,00
+Ministarstvo finansija i trezora BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo finansija i trezora BiH;49.389,00
+Sud BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Sud BiH;49.066,00
+Tužilaštvo BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Tužilaštvo BiH;47.929,74
+Direkcija za civilno vazduhoplovstvo BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za civilno vazduhoplovstvo BiH;44.207,68
+Visoko sudsko i tužilacko vijece BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Visoko sudsko i tužilacko vijece BiH;43.741,81
+Agencija za statistiku BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za statistiku BiH;35.146,00
+Agencija za rad i zapošljavanje BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za rad i zapošljavanje BiH;31.737,00
+Direkcija za evropske integracije BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za evropske integracije BiH;24.822,56
+Generalni sekretarijat Vijeca ministara BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Generalni sekretarijat Vijeca ministara BiH;24.744,45
+Državna regulatorna komisija za elektricnu energiju;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Državna regulatorna komisija za elektricnu energiju;24.293,00
+Agencija za promociju stranih ulaganja u BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za promociju stranih ulaganja u BiH;24.119,00
+Ured za reviziju institucija BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za reviziju institucija BiH;21.340,00
+Agencija za sigurnost hrane;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za sigurnost hrane;21.178,00
+Pravobranilaštvo BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Pravobranilaštvo BiH;20.741,00
+Komisija za ocuvanje nacionalnih spomenika BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za ocuvanje nacionalnih spomenika BiH;19.963,39
+Konkurencijsko vijece BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Konkurencijsko vijece BiH;16.560,00
+Komisija za koncesije;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za koncesije;14.658,00
+Institut za akreditiranje BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za akreditiranje BiH;14.385,71
+Institut za standarde BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za standarde BiH;13.565,00
+Arhiv BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Arhiv BiH;11.949,99
+Agencija za javne nabavke BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za javne nabavke BiH;11.284,00
+Direktorat za policiju;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Direktorat za policiju;11.195,00
+Institut za mjeriteljstvo BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za mjeriteljstvo BiH;10.692,00
+Fond za povratak;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Fond za povratak;10.177,00
+Institucija ombudsmana za ljudska prava BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Institucija ombudsmana za ljudska prava BiH;10.169,00
+Agencija za državnu službu BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za državnu službu BiH;9.460,00
+Institut za intelektualno vlasništvo BiH;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za intelektualno vlasništvo BiH;9.252,00
+Ured za razmatranje žalbi po javnim nabavkama;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za razmatranje žalbi po javnim nabavkama;7.445,00
+Uprava za zaštitu zdravlja bilja;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za zaštitu zdravlja bilja;3.989,00
+Agencija za osiguranje u Bosni i Hercegovini;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za osiguranje u Bosni i Hercegovini;3.911,00
+Ured za zakonodavstvo;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za zakonodavstvo;3.685,00
+Agencija za nadzor nad tržištem;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za nadzor nad tržištem;2.630,00
+Komisija za imovinske zahtjeve;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za imovinske zahtjeve;2.243,00
+Odbor državne službe za žalbe;613400;Rashodi;Rashodi po korisnicima - sintetički konto;Odbor državne službe za žalbe;1.974,00
+Bosna i Hercegovina;613500;Rashodi;Rashodi po korisnicima - sumarno;Izdaci za usluge prevoza i goriva;16.128.720,62
+Ministarstvo odbrane BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo odbrane BiH;10.976.455,13
+Granicna policija BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Granicna policija BiH;1.185.799,00
+Uprava za indirektno oporezivanje BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za indirektno oporezivanje BiH;614.999,00
+Ministarstvo vanjskih poslova BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjskih poslova BiH;612.069,00
+Državna agencija za istrage i zaštitu;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Državna agencija za istrage i zaštitu;506.710,00
+Obavještajno- sigurnosna agencija BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Obavještajno- sigurnosna agencija BiH;421.851,00
+Centar za uklanjanje mina u BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Centar za uklanjanje mina u BiH;345.315,94
+Predsjedništvo BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Predsjedništvo BiH;325.874,90
+Ministarstvo za ljudska prava i izbjeglice BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo za ljudska prava i izbjeglice BiH;136.234,59
+Ministarstvo sigurnosti BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo sigurnosti BiH;106.483,47
+Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;94.632,24
+Parlamentarna skupština BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Parlamentarna skupština BiH;85.641,24
+Ministarstvo civilnih poslova BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo civilnih poslova BiH;69.028,55
+Ministarstvo pravde BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo pravde BiH;62.006,00
+Ministarstvo komunikacija i prometa BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo komunikacija i prometa BiH;58.363,30
+Projekat CIPS;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Projekat CIPS;52.579,16
+Generalni sekretarijat Vijeca ministara BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Generalni sekretarijat Vijeca ministara BiH;38.879,63
+Regulatorna agencija za komunikacije BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Regulatorna agencija za komunikacije BiH;27.517,00
+Direkcija za civilno vazduhoplovstvo BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za civilno vazduhoplovstvo BiH;26.566,40
+Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;26.512,00
+Institucija ombudsmana za ljudska prava BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Institucija ombudsmana za ljudska prava BiH;26.187,00
+Ministarstvo finansija i trezora BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo finansija i trezora BiH;26.018,00
+Ured za veterinarstvo BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za veterinarstvo BiH;24.606,00
+Agencija za promociju stranih ulaganja u BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za promociju stranih ulaganja u BiH;24.415,00
+Direkcija za evropske integracije BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za evropske integracije BiH;21.656,26
+Visoko sudsko i tužilacko vijece BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Visoko sudsko i tužilacko vijece BiH;20.885,72
+Direktorat za policiju;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Direktorat za policiju;17.148,00
+Ustavni sud BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Ustavni sud BiH;15.384,25
+Ured za reviziju institucija BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za reviziju institucija BiH;14.778,00
+Tužilaštvo BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Tužilaštvo BiH;14.528,00
+Središnja izborna komisija BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Središnja izborna komisija BiH;13.782,79
+Državna regulatorna komisija za elektricnu energiju;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Državna regulatorna komisija za elektricnu energiju;12.889,00
+Komisija za ocuvanje nacionalnih spomenika BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za ocuvanje nacionalnih spomenika BiH;12.379,05
+Agencija za rad i zapošljavanje BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za rad i zapošljavanje BiH;10.982,00
+Komisija za koncesije;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za koncesije;10.384,00
+Služba za poslove sa strancima;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za poslove sa strancima;10.253,00
+Agencija za statistiku BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za statistiku BiH;9.571,50
+Sud BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Sud BiH;7.724,00
+Ured za zakonodavstvo;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za zakonodavstvo;7.387,00
+Institut za mjeriteljstvo BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za mjeriteljstvo BiH;6.751,00
+Služba za zajednicke poslove institucija BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za zajednicke poslove institucija BiH;6.536,00
+Fond za povratak;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Fond za povratak;6.314,00
+Agencija za oznacavanje životinja;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za oznacavanje životinja;5.954,00
+Uprava za zaštitu zdravlja bilja;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za zaštitu zdravlja bilja;4.433,00
+Pravobranilaštvo BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Pravobranilaštvo BiH;4.059,00
+Konkurencijsko vijece BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Konkurencijsko vijece BiH;3.328,00
+Agencija za sigurnost hrane;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za sigurnost hrane;3.280,00
+Komisija za imovinske zahtjeve;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za imovinske zahtjeve;3.273,00
+Institut za intelektualno vlasništvo BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za intelektualno vlasništvo BiH;2.307,00
+Agencija za javne nabavke BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za javne nabavke BiH;1.897,00
+Arhiv BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Arhiv BiH;1.817,50
+Institut za standarde BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za standarde BiH;1.667,00
+Ured za razmatranje žalbi po javnim nabavkama;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za razmatranje žalbi po javnim nabavkama;1.410,00
+Agencija za osiguranje u Bosni i Hercegovini;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za osiguranje u Bosni i Hercegovini;676,00
+Agencija za nadzor nad tržištem;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za nadzor nad tržištem;478,00
+Agencija za državnu službu BiH;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za državnu službu BiH;46,00
+Odbor državne službe za žalbe;613500;Rashodi;Rashodi po korisnicima - sintetički konto;Odbor državne službe za žalbe;18,00
+Bosna i Hercegovina;613600;Rashodi;Rashodi po korisnicima - sumarno;Unajmljivanje imovine i opreme;15.258.668,87
+Ministarstvo vanjskih poslova BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjskih poslova BiH;4.290.586,00
+Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;3.438.526,66
+Državna agencija za istrage i zaštitu;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Državna agencija za istrage i zaštitu;836.192,00
+Uprava za indirektno oporezivanje BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za indirektno oporezivanje BiH;835.804,00
+Granicna policija BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Granicna policija BiH;814.597,00
+Ministarstvo odbrane BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo odbrane BiH;456.917,70
+Predsjedništvo BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Predsjedništvo BiH;432.915,00
+Središnja izborna komisija BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Središnja izborna komisija BiH;419.760,59
+Centar za uklanjanje mina u BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Centar za uklanjanje mina u BiH;355.802,00
+Direkcija za civilno vazduhoplovstvo BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za civilno vazduhoplovstvo BiH;290.683,76
+Direkcija za evropske integracije BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za evropske integracije BiH;264.750,56
+Obavještajno- sigurnosna agencija BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Obavještajno- sigurnosna agencija BiH;252.882,00
+Generalni sekretarijat Vijeca ministara BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Generalni sekretarijat Vijeca ministara BiH;184.411,21
+Ministarstvo civilnih poslova BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo civilnih poslova BiH;182.567,00
+Ministarstvo komunikacija i prometa BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo komunikacija i prometa BiH;181.050,75
+Državna regulatorna komisija za elektricnu energiju;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Državna regulatorna komisija za elektricnu energiju;164.153,00
+Institucija ombudsmana za ljudska prava BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Institucija ombudsmana za ljudska prava BiH;144.250,00
+Ured za veterinarstvo BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za veterinarstvo BiH;134.956,68
+Agencija za promociju stranih ulaganja u BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za promociju stranih ulaganja u BiH;126.974,00
+Institut za standarde BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za standarde BiH;124.260,00
+Ministarstvo pravde BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo pravde BiH;104.826,00
+Ministarstvo sigurnosti BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo sigurnosti BiH;101.848,23
+Ured za reviziju institucija BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za reviziju institucija BiH;99.684,00
+Institut za akreditiranje BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za akreditiranje BiH;88.122,00
+Ministarstvo za ljudska prava i izbjeglice BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo za ljudska prava i izbjeglice BiH;87.858,57
+Konkurencijsko vijece BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Konkurencijsko vijece BiH;84.355,00
+Regulatorna agencija za komunikacije BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Regulatorna agencija za komunikacije BiH;83.037,00
+Komisija za ocuvanje nacionalnih spomenika BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za ocuvanje nacionalnih spomenika BiH;72.278,00
+Institut za intelektualno vlasništvo BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za intelektualno vlasništvo BiH;70.785,00
+Ured za razmatranje žalbi po javnim nabavkama;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za razmatranje žalbi po javnim nabavkama;63.180,00
+Agencija za javne nabavke BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za javne nabavke BiH;62.830,00
+Agencija za sigurnost hrane;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za sigurnost hrane;56.311,00
+Projekat CIPS;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Projekat CIPS;52.388,88
+Agencija za oznacavanje životinja;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za oznacavanje životinja;41.956,00
+Služba za poslove sa strancima;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za poslove sa strancima;41.588,00
+Pravobranilaštvo BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Pravobranilaštvo BiH;39.888,00
+Komisija za koncesije;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za koncesije;36.000,00
+Uprava za zaštitu zdravlja bilja;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za zaštitu zdravlja bilja;26.756,00
+Visoko sudsko i tužilacko vijece BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Visoko sudsko i tužilacko vijece BiH;25.531,28
+Fond za povratak;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Fond za povratak;23.667,00
+Institut za mjeriteljstvo BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za mjeriteljstvo BiH;22.429,00
+Komisija za imovinske zahtjeve;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za imovinske zahtjeve;13.500,00
+Agencija za osiguranje u Bosni i Hercegovini;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za osiguranje u Bosni i Hercegovini;13.299,00
+Agencija za nadzor nad tržištem;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za nadzor nad tržištem;11.232,00
+Ustavni sud BiH;613600;Rashodi;Rashodi po korisnicima - sintetički konto;Ustavni sud BiH;3.279,00
+Bosna i Hercegovina;613700;Rashodi;Rashodi po korisnicima - sumarno;Izdaci za tekuće održavanje;14.735.226,09
+Ministarstvo odbrane BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo odbrane BiH;9.062.597,33
+Granicna policija BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Granicna policija BiH;938.291,00
+Ministarstvo vanjskih poslova BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjskih poslova BiH;708.861,00
+Obavještajno- sigurnosna agencija BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Obavještajno- sigurnosna agencija BiH;521.967,00
+Uprava za indirektno oporezivanje BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za indirektno oporezivanje BiH;450.418,73
+Centar za uklanjanje mina u BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Centar za uklanjanje mina u BiH;378.492,00
+Predsjedništvo BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Predsjedništvo BiH;308.077,50
+Državna agencija za istrage i zaštitu;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Državna agencija za istrage i zaštitu;300.080,28
+Služba za zajednicke poslove institucija BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za zajednicke poslove institucija BiH;264.839,00
+Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;228.207,07
+Ministarstvo finansija i trezora BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo finansija i trezora BiH;217.079,19
+Ministarstvo sigurnosti BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo sigurnosti BiH;207.032,00
+Visoko sudsko i tužilacko vijece BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Visoko sudsko i tužilacko vijece BiH;130.289,43
+Ministarstvo za ljudska prava i izbjeglice BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo za ljudska prava i izbjeglice BiH;87.305,20
+Parlamentarna skupština BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Parlamentarna skupština BiH;85.404,49
+Regulatorna agencija za komunikacije BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Regulatorna agencija za komunikacije BiH;76.653,00
+Ustavni sud BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Ustavni sud BiH;65.710,90
+Ministarstvo civilnih poslova BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo civilnih poslova BiH;64.736,46
+Agencija za rad i zapošljavanje BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za rad i zapošljavanje BiH;52.921,00
+Ministarstvo pravde BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo pravde BiH;49.801,00
+Generalni sekretarijat Vijeca ministara BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Generalni sekretarijat Vijeca ministara BiH;47.754,88
+Ministarstvo komunikacija i prometa BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo komunikacija i prometa BiH;44.619,35
+Komisija za ocuvanje nacionalnih spomenika BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za ocuvanje nacionalnih spomenika BiH;42.663,40
+Središnja izborna komisija BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Središnja izborna komisija BiH;38.648,94
+Direkcija za evropske integracije BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za evropske integracije BiH;32.540,94
+Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;31.880,00
+Projekat CIPS;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Projekat CIPS;27.683,88
+Ured za veterinarstvo BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za veterinarstvo BiH;25.248,00
+Tužilaštvo BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Tužilaštvo BiH;23.342,50
+Direkcija za civilno vazduhoplovstvo BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za civilno vazduhoplovstvo BiH;22.669,62
+Ured za reviziju institucija BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za reviziju institucija BiH;18.421,00
+Agencija za oznacavanje životinja;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za oznacavanje životinja;17.458,00
+Institucija ombudsmana za ljudska prava BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Institucija ombudsmana za ljudska prava BiH;15.566,00
+Agencija za promociju stranih ulaganja u BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za promociju stranih ulaganja u BiH;14.978,00
+Sud BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Sud BiH;13.865,00
+Institut za mjeriteljstvo BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za mjeriteljstvo BiH;12.089,00
+Agencija za statistiku BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za statistiku BiH;11.953,00
+Državna regulatorna komisija za elektricnu energiju;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Državna regulatorna komisija za elektricnu energiju;11.496,00
+Institut za intelektualno vlasništvo BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za intelektualno vlasništvo BiH;11.017,00
+Služba za poslove sa strancima;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za poslove sa strancima;9.969,00
+Institut za standarde BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za standarde BiH;9.153,00
+Agencija za javne nabavke BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za javne nabavke BiH;8.275,00
+Agencija za sigurnost hrane;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za sigurnost hrane;7.000,00
+Fond za povratak;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Fond za povratak;5.144,00
+Arhiv BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Arhiv BiH;5.030,00
+Direktorat za policiju;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Direktorat za policiju;4.404,00
+Ured za zakonodavstvo;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za zakonodavstvo;3.861,00
+Komisija za koncesije;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za koncesije;3.532,00
+Uprava za zaštitu zdravlja bilja;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za zaštitu zdravlja bilja;3.008,00
+Konkurencijsko vijece BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Konkurencijsko vijece BiH;3.005,00
+Agencija za nadzor nad tržištem;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za nadzor nad tržištem;1.840,00
+Pravobranilaštvo BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Pravobranilaštvo BiH;1.708,00
+Institut za akreditiranje BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za akreditiranje BiH;1.632,00
+Agencija za državnu službu BiH;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za državnu službu BiH;1.429,00
+Komisija za imovinske zahtjeve;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za imovinske zahtjeve;1.109,00
+Ured za razmatranje žalbi po javnim nabavkama;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za razmatranje žalbi po javnim nabavkama;1.052,00
+Agencija za osiguranje u Bosni i Hercegovini;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za osiguranje u Bosni i Hercegovini;1.011,00
+Odbor državne službe za žalbe;613700;Rashodi;Rashodi po korisnicima - sintetički konto;Odbor državne službe za žalbe;406,00
+Bosna i Hercegovina;613800;Rashodi;Rashodi po korisnicima - sumarno;Izdaci osiguranja, bankarskih usluga i usluga platnog prometa;4.428.322,00
+Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;2.205.878,00
+Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;613800;Rashodi;Rashodi po korisnicima - analitički konto;Bankarski troškovi i neg.kursne razlike;2.205.878,00
+Ministarstvo odbrane BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo odbrane BiH;590.400,87
+Ministarstvo vanjskih poslova BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjskih poslova BiH;517.681,00
+Uprava za indirektno oporezivanje BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za indirektno oporezivanje BiH;160.000,00
+Centar za uklanjanje mina u BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Centar za uklanjanje mina u BiH;146.011,30
+Granicna policija BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Granicna policija BiH;142.935,00
+Visoko sudsko i tužilacko vijece BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Visoko sudsko i tužilacko vijece BiH;115.219,38
+Obavještajno- sigurnosna agencija BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Obavještajno- sigurnosna agencija BiH;110.539,00
+Državna agencija za istrage i zaštitu;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Državna agencija za istrage i zaštitu;83.779,00
+Predsjedništvo BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Predsjedništvo BiH;75.523,87
+Regulatorna agencija za komunikacije BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Regulatorna agencija za komunikacije BiH;42.857,85
+Ministarstvo sigurnosti BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo sigurnosti BiH;25.407,65
+Ministarstvo pravde BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo pravde BiH;21.450,00
+Ministarstvo za ljudska prava i izbjeglice BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo za ljudska prava i izbjeglice BiH;17.836,35
+Ministarstvo civilnih poslova BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo civilnih poslova BiH;15.256,32
+Parlamentarna skupština BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Parlamentarna skupština BiH;14.791,90
+Državna regulatorna komisija za elektricnu energiju;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Državna regulatorna komisija za elektricnu energiju;11.500,00
+Generalni sekretarijat Vijeca ministara BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Generalni sekretarijat Vijeca ministara BiH;11.086,00
+Središnja izborna komisija BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Središnja izborna komisija BiH;10.983,87
+Sud BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Sud BiH;9.464,00
+Ured za veterinarstvo BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za veterinarstvo BiH;8.582,00
+Direkcija za evropske integracije BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za evropske integracije BiH;7.935,91
+Ustavni sud BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Ustavni sud BiH;7.723,68
+Ministarstvo komunikacija i prometa BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo komunikacija i prometa BiH;6.876,30
+Agencija za rad i zapošljavanje BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za rad i zapošljavanje BiH;5.868,00
+Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;5.393,20
+Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;4.989,00
+Direkcija za civilno vazduhoplovstvo BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za civilno vazduhoplovstvo BiH;4.701,55
+Ministarstvo finansija i trezora BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo finansija i trezora BiH;4.632,00
+Ured za reviziju institucija BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za reviziju institucija BiH;4.472,00
+Komisija za koncesije;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za koncesije;3.905,00
+Agencija za promociju stranih ulaganja u BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za promociju stranih ulaganja u BiH;3.720,00
+Institucija ombudsmana za ljudska prava BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Institucija ombudsmana za ljudska prava BiH;3.494,00
+Služba za zajednicke poslove institucija BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za zajednicke poslove institucija BiH;3.280,00
+Tužilaštvo BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Tužilaštvo BiH;2.858,00
+Komisija za ocuvanje nacionalnih spomenika BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za ocuvanje nacionalnih spomenika BiH;2.673,00
+Konkurencijsko vijece BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Konkurencijsko vijece BiH;2.667,00
+Služba za poslove sa strancima;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za poslove sa strancima;2.543,00
+Agencija za javne nabavke BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za javne nabavke BiH;1.887,00
+Fond za povratak;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Fond za povratak;1.807,00
+Agencija za statistiku BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za statistiku BiH;1.760,00
+Pravobranilaštvo BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Pravobranilaštvo BiH;1.701,00
+Agencija za oznacavanje životinja;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za oznacavanje životinja;1.437,00
+Agencija za nadzor nad tržištem;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za nadzor nad tržištem;1.407,00
+Uprava za zaštitu zdravlja bilja;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za zaštitu zdravlja bilja;1.390,00
+Institut za standarde BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za standarde BiH;591,00
+Agencija za sigurnost hrane;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za sigurnost hrane;445,00
+Arhiv BiH;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Arhiv BiH;440,00
+Ured za zakonodavstvo;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za zakonodavstvo;282,00
+Komisija za imovinske zahtjeve;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za imovinske zahtjeve;245,00
+Direktorat za policiju;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Direktorat za policiju;9,00
+Agencija za osiguranje u Bosni i Hercegovini;613800;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za osiguranje u Bosni i Hercegovini;6,00
+Bosna i Hercegovina;613900;Rashodi;Rashodi po korisnicima - sumarno;Ugovorne i druge posebne usluge;31.462.987,47
+Ministarstvo vanjskih poslova BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjskih poslova BiH;3.776.329,57
+Ministarstvo odbrane BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo odbrane BiH;3.623.037,01
+Uprava za indirektno oporezivanje BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za indirektno oporezivanje BiH;3.582.482,09
+Obavještajno- sigurnosna agencija BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Obavještajno- sigurnosna agencija BiH;2.805.947,00
+Ministarstvo pravde BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo pravde BiH;1.679.685,00
+Visoko sudsko i tužilacko vijece BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Visoko sudsko i tužilacko vijece BiH;1.646.656,92
+Direkcija za civilno vazduhoplovstvo BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za civilno vazduhoplovstvo BiH;1.441.129,40
+Sud BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Sud BiH;1.130.559,00
+Ministarstvo za ljudska prava i izbjeglice BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo za ljudska prava i izbjeglice BiH;1.089.746,35
+Središnja izborna komisija BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Središnja izborna komisija BiH;1.011.183,48
+Agencija za promociju stranih ulaganja u BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za promociju stranih ulaganja u BiH;735.579,09
+Ministarstvo komunikacija i prometa BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo komunikacija i prometa BiH;728.488,44
+Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;726.982,55
+Predsjedništvo BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Predsjedništvo BiH;688.848,72
+Parlamentarna skupština BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Parlamentarna skupština BiH;672.293,02
+Ured za veterinarstvo BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za veterinarstvo BiH;583.529,50
+Generalni sekretarijat Vijeca ministara BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Generalni sekretarijat Vijeca ministara BiH;544.110,37
+Ministarstvo civilnih poslova BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo civilnih poslova BiH;490.910,72
+Granicna policija BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Granicna policija BiH;344.630,00
+Komisija za ocuvanje nacionalnih spomenika BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za ocuvanje nacionalnih spomenika BiH;323.664,51
+Državna agencija za istrage i zaštitu;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Državna agencija za istrage i zaštitu;322.815,30
+Projekat CIPS;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Projekat CIPS;302.156,75
+Ministarstvo finansija i trezora BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo finansija i trezora BiH;232.242,23
+Direkcija za evropske integracije BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za evropske integracije BiH;224.432,92
+Regulatorna agencija za komunikacije BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Regulatorna agencija za komunikacije BiH;217.095,40
+Komisija za imovinske zahtjeve;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za imovinske zahtjeve;200.755,00
+Ministarstvo sigurnosti BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo sigurnosti BiH;191.250,65
+Služba za zajednicke poslove institucija BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za zajednicke poslove institucija BiH;160.229,00
+Centar za uklanjanje mina u BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Centar za uklanjanje mina u BiH;157.031,00
+Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;150.416,00
+Agencija za državnu službu BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za državnu službu BiH;139.638,96
+Ustavni sud BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Ustavni sud BiH;137.913,42
+Institut za mjeriteljstvo BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za mjeriteljstvo BiH;135.974,00
+Tužilaštvo BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Tužilaštvo BiH;122.259,70
+Institut za standarde BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za standarde BiH;103.590,00
+Agencija za statistiku BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za statistiku BiH;98.192,08
+Agencija za oznacavanje životinja;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za oznacavanje životinja;96.405,00
+Agencija za rad i zapošljavanje BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za rad i zapošljavanje BiH;87.144,01
+Ured za zakonodavstvo;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za zakonodavstvo;73.633,00
+Državna regulatorna komisija za elektricnu energiju;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Državna regulatorna komisija za elektricnu energiju;60.957,00
+Uprava za zaštitu zdravlja bilja;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za zaštitu zdravlja bilja;60.446,00
+Arhiv BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Arhiv BiH;56.417,10
+Agencija za sigurnost hrane;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za sigurnost hrane;53.937,00
+Institut za akreditiranje BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za akreditiranje BiH;51.404,65
+Institut za intelektualno vlasništvo BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za intelektualno vlasništvo BiH;49.733,00
+Konkurencijsko vijece BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Konkurencijsko vijece BiH;45.820,68
+Ured za reviziju institucija BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za reviziju institucija BiH;44.711,88
+Komisija za koncesije;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za koncesije;39.610,00
+Pravobranilaštvo BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Pravobranilaštvo BiH;37.030,00
+Agencija za javne nabavke BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za javne nabavke BiH;35.482,00
+Ured za razmatranje žalbi po javnim nabavkama;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za razmatranje žalbi po javnim nabavkama;33.171,00
+Institucija ombudsmana za ljudska prava BiH;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Institucija ombudsmana za ljudska prava BiH;32.774,00
+Fond za povratak;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Fond za povratak;21.828,00
+Agencija za osiguranje u Bosni i Hercegovini;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za osiguranje u Bosni i Hercegovini;14.806,00
+Odbor državne službe za žalbe;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Odbor državne službe za žalbe;14.153,00
+Agencija za nadzor nad tržištem;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za nadzor nad tržištem;12.454,00
+Služba za poslove sa strancima;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za poslove sa strancima;10.841,00
+Direktorat za policiju;613900;Rashodi;Rashodi po korisnicima - sintetički konto;Direktorat za policiju;8.444,00
+Bosna i Hercegovina;-;Rashodi;Grupa;Rashodi finansiranja / Kamata;0,00
+Bosna i Hercegovina;-;Rashodi;Grupa;Transferi i doznake;8.957.268,00
+Bosna i Hercegovina;614000;Rashodi;Podgrupa;Tekući grantovi;8.957.268,00
+Bosna i Hercegovina;614100;Rashodi;Rashodi po korisnicima - sumarno;Grantovi drugim nivoima vlade;100.000,00
+Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;614100;Rashodi;Rashodi po korisnicima - sintetički konto;Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;100.000,00
+Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;614100;Rashodi;Rashodi po korisnicima - analitički konto;Memorijalni centar Potočari;100.000,00
+Bosna i Hercegovina;614200;Rashodi;Rashodi po korisnicima - sumarno;Grantovi pojedincima;5.801.958,00
+Fond za povratak - Udružena sredstva;614200;Rashodi;Rashodi po korisnicima - sintetički konto;Fond za povratak - Udružena sredstva;4.401.958,00
+Fond za povratak;614200;Rashodi;Rashodi po korisnicima - sintetički konto;Fond za povratak;1.300.000,00
+Ministarstvo za ljudska prava i izbjeglice BiH;614200;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo za ljudska prava i izbjeglice BiH;100.000,00
+Bosna i Hercegovina;614300;Rashodi;Rashodi po korisnicima - sumarno;Grantovi neprofitnim organizacijama;3.055.310,00
+Ministarstvo civilnih poslova BiH;614300;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo civilnih poslova BiH;2.913.000,00
+Ministarstvo za ljudska prava i izbjeglice BiH;614300;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo za ljudska prava i izbjeglice BiH;92.310,00
+Ministarstvo sigurnosti BiH;614300;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo sigurnosti BiH;50.000,00
+Bosna i Hercegovina;-;Rashodi;Grupa;Rashodi za nefinansijsku imovinu / Stalna sredstva;60.709.534,62
+Bosna i Hercegovina;821000;Rashodi;Podgrupa;Nabavka stalnih sredstava;60.709.534,62
+Bosna i Hercegovina;821100;Rashodi;Rashodi po korisnicima - sumarno;Nabavka zemljišta, šuma i višegodišnjih zasada;1.370.085,00
+Ministarstvo pravde BiH;821100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo pravde BiH;1.223.821,00
+Ministarstvo sigurnosti BiH;821100;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo sigurnosti BiH;89.264,00
+Uprava za indirektno oporezivanje BiH;821100;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za indirektno oporezivanje BiH;57.000,00
+Bosna i Hercegovina;821200;Rashodi;Rashodi po korisnicima - sumarno;Nabavka građevina;3.579.201,00
+Obavještajno- sigurnosna agencija BiH;821200;Rashodi;Rashodi po korisnicima - sintetički konto;Obavještajno- sigurnosna agencija BiH;1.800.000,00
+Granicna policija BiH;821200;Rashodi;Rashodi po korisnicima - sintetički konto;Granicna policija BiH;900.000,00
+Državna agencija za istrage i zaštitu;821200;Rashodi;Rashodi po korisnicima - sintetički konto;Državna agencija za istrage i zaštitu;844.201,00
+Ministarstvo sigurnosti BiH;821200;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo sigurnosti BiH;23.800,00
+Ministarstvo pravde BiH;821200;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo pravde BiH;11.200,00
+Bosna i Hercegovina;821300;Rashodi;Rashodi po korisnicima - sumarno;Nabavka opreme;27.890.260,10
+Ministarstvo odbrane BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo odbrane BiH;11.903.668,91
+Regulatorna agencija za komunikacije BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Regulatorna agencija za komunikacije BiH;2.979.139,31
+Državna agencija za istrage i zaštitu;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Državna agencija za istrage i zaštitu;2.671.550,85
+Granicna policija BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Granicna policija BiH;2.299.775,00
+Obavještajno- sigurnosna agencija BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Obavještajno- sigurnosna agencija BiH;1.362.541,46
+Služba za poslove sa strancima;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za poslove sa strancima;850.409,00
+Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za identifikaciju dokumenata, evidenciju i razmjenu podataka;648.234,33
+Uprava za indirektno oporezivanje BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za indirektno oporezivanje BiH;562.651,00
+Centar za uklanjanje mina u BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Centar za uklanjanje mina u BiH;483.168,00
+Ministarstvo vanjskih poslova BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjskih poslova BiH;457.610,00
+Institut za mjeriteljstvo BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za mjeriteljstvo BiH;454.055,00
+Visoko sudsko i tužilacko vijece BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Visoko sudsko i tužilacko vijece BiH;282.937,43
+Projekat CIPS;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Projekat CIPS;239.461,20
+Ministarstvo pravde BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo pravde BiH;190.737,00
+Ministarstvo sigurnosti BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo sigurnosti BiH;171.202,64
+Ustavni sud BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Ustavni sud BiH;159.805,00
+Predsjedništvo BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Predsjedništvo BiH;152.297,93
+Agencija za sigurnost hrane;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za sigurnost hrane;131.050,00
+Ministarstvo za ljudska prava i izbjeglice BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo za ljudska prava i izbjeglice BiH;113.708,23
+Služba za zajednicke poslove institucija BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za zajednicke poslove institucija BiH;103.094,00
+Tužilaštvo BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Tužilaštvo BiH;99.783,00
+Ministarstvo finansija i trezora BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo finansija i trezora BiH;99.095,52
+Državna regulatorna komisija za elektricnu energiju;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Državna regulatorna komisija za elektricnu energiju;96.352,00
+Sud BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Sud BiH;95.935,00
+Ministarstvo komunikacija i prometa BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo komunikacija i prometa BiH;89.770,79
+Središnja izborna komisija BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Središnja izborna komisija BiH;87.521,23
+Institut za intelektualno vlasništvo BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za intelektualno vlasništvo BiH;79.168,00
+Agencija za nadzor nad tržištem;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za nadzor nad tržištem;79.083,00
+Generalni sekretarijat Vijeca ministara BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Generalni sekretarijat Vijeca ministara BiH;70.695,74
+Agencija za rad i zapošljavanje BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za rad i zapošljavanje BiH;68.722,00
+Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjske trgovine i ekonomskih odnosa BiH;61.140,00
+Ured za veterinarstvo BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za veterinarstvo BiH;59.909,74
+Ministarstvo civilnih poslova BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo civilnih poslova BiH;58.435,01
+Institut za standarde BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za standarde BiH;56.607,00
+Parlamentarna skupština BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Parlamentarna skupština BiH;56.454,00
+Uprava za zaštitu zdravlja bilja;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za zaštitu zdravlja bilja;52.775,00
+Agencija za promociju stranih ulaganja u BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za promociju stranih ulaganja u BiH;43.950,00
+Ured za razmatranje žalbi po javnim nabavkama;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za razmatranje žalbi po javnim nabavkama;40.659,00
+Komisija za koncesije;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za koncesije;39.684,00
+Agencija za statistiku BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za statistiku BiH;39.648,00
+Institut za akreditiranje BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Institut za akreditiranje BiH;38.632,00
+Direkcija za civilno vazduhoplovstvo BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za civilno vazduhoplovstvo BiH;32.210,78
+Agencija za državnu službu BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za državnu službu BiH;28.876,00
+Agencija za oznacavanje životinja;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za oznacavanje životinja;26.948,00
+Agencija za javne nabavke BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za javne nabavke BiH;25.152,00
+Ured za reviziju institucija BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za reviziju institucija BiH;24.699,00
+Komisija za ocuvanje nacionalnih spomenika BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Komisija za ocuvanje nacionalnih spomenika BiH;22.574,00
+Direkcija za evropske integracije BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Direkcija za evropske integracije BiH;21.586,00
+Konkurencijsko vijece BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Konkurencijsko vijece BiH;19.201,00
+Agencija za osiguranje u Bosni i Hercegovini;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Agencija za osiguranje u Bosni i Hercegovini;17.310,00
+Ured za zakonodavstvo;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Ured za zakonodavstvo;10.926,00
+Arhiv BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Arhiv BiH;9.997,00
+Fond za povratak;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Fond za povratak;9.845,00
+Institucija ombudsmana za ljudska prava BiH;821300;Rashodi;Rashodi po korisnicima - sintetički konto;Institucija ombudsmana za ljudska prava BiH;9.819,00
+Bosna i Hercegovina;821400;Rashodi;Rashodi po korisnicima - sumarno;Nabavka ostalih sredstava;168.892,00
+Ministarstvo vanjskih poslova BiH;821400;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjskih poslova BiH;168.892,00
+Bosna i Hercegovina;821500;Rashodi;Rashodi po korisnicima - sumarno;Nabavka stalnih sredstava u obliku prava;12.312.795,00
+Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;821500;Rashodi;Rashodi po korisnicima - sintetički konto;Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;12.311.468,00
+Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;821500;Rashodi;Rashodi po korisnicima - analitički konto;Transferi za proj.dokumentaciju koridor 5C;11.200.556,00
+Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;821500;Rashodi;Rashodi po korisnicima - analitički konto;Ulog BiH u Razvojnoj banci Vijeća Europe;1.110.912,00
+Ministarstvo sigurnosti BiH;821500;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo sigurnosti BiH;1.327,00
+Bosna i Hercegovina;821600;Rashodi;Rashodi po korisnicima - sumarno;Rekonstrukcija i investiciono održavanje;15.388.301,52
+REZERVISANJA;821600;Rashodi;Rashodi po korisnicima - sintetički konto;REZERVISANJA;11.306.277,00
+REZERVISANJA;821600;Rashodi;Rashodi po korisnicima - analitički konto;Rezervisanja za kapitalna ulaganja;11.306.277,00
+Ministarstvo odbrane BiH;821600;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo odbrane BiH;2.776.620,15
+Ministarstvo vanjskih poslova BiH;821600;Rashodi;Rashodi po korisnicima - sintetički konto;Ministarstvo vanjskih poslova BiH;469.742,00
+Uprava za indirektno oporezivanje BiH;821600;Rashodi;Rashodi po korisnicima - sintetički konto;Uprava za indirektno oporezivanje BiH;421.981,50
+Parlamentarna skupština BiH;821600;Rashodi;Rashodi po korisnicima - sintetički konto;Parlamentarna skupština BiH;293.564,00
+Projekat CIPS;821600;Rashodi;Rashodi po korisnicima - sintetički konto;Projekat CIPS;77.298,87
+Služba za zajednicke poslove institucija BiH;821600;Rashodi;Rashodi po korisnicima - sintetički konto;Služba za zajednicke poslove institucija BiH;42.818,00
+Bosna i Hercegovina;-;Rashodi;Grupa;Rashodi za finansijsku imovinu;0,00
+Bosna i Hercegovina;-;Rashodi;Grupa;Rashodi za otplatu dugova;0,00
+Bosna i Hercegovina;-;Rashodi;Grupa;Ostali rashodi;7.764.702,87
+Bosna i Hercegovina;622000;Rashodi;Podgrupa;Kotizacija;2.086.024,00
+Bosna i Hercegovina;622100;Rashodi;Rashodi po korisnicima - sumarno;Kotizacija;2.086.024,00
+Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;622100;Rashodi;Rashodi po korisnicima - sintetički konto;Kotizacija;2.086.024,00
+Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;622100;Rashodi;Rashodi po korisnicima - analitički konto;Članarine BiH u međunarodnim organ.;2.086.024,00
+Bosna i Hercegovina;635000;Rashodi;Podgrupa;Izdaci za posebne namjene;3.052.392,00
+Bosna i Hercegovina;635100;Rashodi;Rashodi po korisnicima - sumarno;Izdaci za posebne namjene;3.052.392,00
+Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;635100;Rashodi;Rashodi po korisnicima - sintetički konto;Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;3.052.392,00
+Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;635100;Rashodi;Rashodi po korisnicima - analitički konto;Finansiranje pasoških knjižica;1.995.392,00
+Programi posebne namjene - Direktni transferi s Jedinstvenog racuna Trezora;635100;Rashodi;Rashodi po korisnicima - analitički konto;Transferi za javni servis BiH;1.057.000,00
+Bosna i Hercegovina;686000;Rashodi;Podgrupa;Rashodi iz tekuće rezerve;1.927.535,00
+Bosna i Hercegovina;686100;Rashodi;Rashodi po korisnicima - sumarno;Izdaci iz tekuće rezerve;1.524.791,00
+REZERVISANJA;686100;Rashodi;Rashodi po korisnicima - sintetički konto;REZERVISANJA;1.524.791,00
+Bosna i Hercegovina;686200;Rashodi;Rashodi po korisnicima - sumarno;Izdaci iz tekuće rezerve za obaveze iz ranijeg perioda;402.744,00
+REZERVISANJA;686200;Rashodi;Rashodi po korisnicima - sintetički konto;REZERVISANJA;402.744,00
+Bosna i Hercegovina;888000;Rashodi;Podgrupa;Programi posebne namjene;698.751,87
+Bosna i Hercegovina;888800;Rashodi;Rashodi po korisnicima - sumarno;Programi posebne namjene;698.751,87
+Ustavni sud BiH;888800;Rashodi;Rashodi po korisnicima - sintetički konto;Ustavni sud BiH;698.751,87
