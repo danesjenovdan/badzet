@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.forms.models import model_to_dict
 from django.http import JsonResponse
 import json
+from django.db.models import Sum
 
 from .models import Budget
 
@@ -43,7 +44,7 @@ def filter_model(request, objects):
         data = request.GET.get(field, None)
         if data:
             args[field + '__icontains'] = data
-    objects = objects.filter(*args)
+    objects = objects.filter(**args)
 
     data = request.GET.get('year', None)
     if data:
