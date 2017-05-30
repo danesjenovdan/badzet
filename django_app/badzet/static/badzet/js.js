@@ -1,4 +1,4 @@
-var API_ENDPOINT = 'http://glejbaclassificationet.knedl.si';
+var API_ENDPOINT = 'http://glejbadzet.knedl.si';
 
 // https://isci.parlameter.si/filter/kriza?people=80
 function getParameterByName(name, url) {
@@ -119,230 +119,242 @@ var testis = new Vue({
     el: '.searchfilter-master-container',
     components: ['SearchDropdown'],
     computed: {
-        ppsinputPlaceholder: function() {
-            if (this.ppspodatki[0]) {
-                if (this.ppspodatki[0].id === 'loading') {
+        kategorijePlaceholder: function() {
+            if (this.kategorije[0]) {
+                if (this.kategorije[0].id === 'loading') {
                     return 'Nalagamo filtre ...'
                 }
             }
-            return this.ppsselectedTags.length > 0 ? 'Izbranih filtrov: ' + this.ppsselectedTags.length : 'Izberi filtre'
+            return this.kategorijeSelected.length > 0 ? 'Izbranih filtrov: ' + this.kategorijeSelected.length : 'Izberi filtre'
         },
-        ppsselectedTags: function() {
-            return this.ppspodatki
+        kategorijeSelected: function() {
+            return this.kategorijeSelected
                 .filter(function(tag) { return tag.selected })
                 .map(function(tag) { return tag.id });
         },
-        casinputPlaceholder: function() {
-            if (this.caspodatki[0]) {
-                if (this.caspodatki[0].id === 'loading') {
-                    return 'Nalagamo filtre ...'
-                }
-            }
-            return this.casselectedTags.length > 0 ? 'Izbranih filtrov: ' + this.casselectedTags.length : 'Izberi filtre'
-        },
-        casselectedTags: function() {
-            return this.caspodatki
-                .filter(function(tag) { return tag.selected })
-                .map(function(tag) { return tag.id });
-        },
-        dtinputPlaceholder: function() {
-            if (this.dtdisabled) {
-                return 'Ni delovnih teles.';
-            }
-            if (this.dtpodatki[0]) {
-                if (this.dtpodatki[0].id === 'loading') {
-                    return 'Nalagamo delovna telesa ...'
-                }
-            }
-            return this.dtselectedTags.length > 0 ? 'Izbranih delovnih teles: ' + this.dtselectedTags.length : 'Izberi delovna telesa'
-        },
-        dtselectedTags: function() {
-            return this.dtpodatki
-                .filter(function(tag) { return tag.selected })
-                .map(function(tag) { return tag.id });
-        },
-        filters: function() {
-            return {
-                people: this.ppsselectedTags
-                    .filter(function(tag) {
-                        return tag.indexOf('ps') === -1;
-                    })
-                    .map(function(tag) {
-                        return tag.split('p')[1];
-                    }),
-                revenue_expenses: this.ppsselectedTags
-                    .filter(function(tag) {
-                        return tag.indexOf('ps') !== -1;
-                    }).map(function(tag) {
-                        return tag.split('ps')[1];
-                    }),
-                money: this.caspodatki
-                    .filter(function(tag) {
-                        return tag.selected;
-                    }).map(function(tag) {
-                        return '1.' + String(new Date(tag.date).getMonth() + 1) + '.' + String(new Date(tag.date).getFullYear());
-                    }),
-                year: this.dtpodatki
-                    .filter(function(tag) {
-                        return tag.selected;
-                    }).map(function(tag) {
-                        return tag.id;
-                    }),
-                classification: this.classification
-            }
-        },
-        dtchecked: function() {
-            var tmpchecked = this.dtselectedTags.length > 0 ? true : false;
-            return tmpchecked
-        }
+        // casinputPlaceholder: function() {
+        //     if (this.caspodatki[0]) {
+        //         if (this.caspodatki[0].id === 'loading') {
+        //             return 'Nalagamo filtre ...'
+        //         }
+        //     }
+        //     return this.casselectedTags.length > 0 ? 'Izbranih filtrov: ' + this.casselectedTags.length : 'Izberi filtre'
+        // },
+        // casselectedTags: function() {
+        //     return this.caspodatki
+        //         .filter(function(tag) { return tag.selected })
+        //         .map(function(tag) { return tag.id });
+        // },
+        // dtinputPlaceholder: function() {
+        //     if (this.dtdisabled) {
+        //         return 'Ni delovnih teles.';
+        //     }
+        //     if (this.dtpodatki[0]) {
+        //         if (this.dtpodatki[0].id === 'loading') {
+        //             return 'Nalagamo delovna telesa ...'
+        //         }
+        //     }
+        //     return this.dtselectedTags.length > 0 ? 'Izbranih delovnih teles: ' + this.dtselectedTags.length : 'Izberi delovna telesa'
+        // },
+        // dtselectedTags: function() {
+        //     return this.dtpodatki
+        //         .filter(function(tag) { return tag.selected })
+        //         .map(function(tag) { return tag.id });
+        // },
+        // filters: function() {
+        //     return {
+        //         people: this.ppsselectedTags
+        //             .filter(function(tag) {
+        //                 return tag.indexOf('ps') === -1;
+        //             })
+        //             .map(function(tag) {
+        //                 return tag.split('p')[1];
+        //             }),
+        //         revenue_expenses: this.ppsselectedTags
+        //             .filter(function(tag) {
+        //                 return tag.indexOf('ps') !== -1;
+        //             }).map(function(tag) {
+        //                 return tag.split('ps')[1];
+        //             }),
+        //         money: this.caspodatki
+        //             .filter(function(tag) {
+        //                 return tag.selected;
+        //             }).map(function(tag) {
+        //                 return '1.' + String(new Date(tag.date).getMonth() + 1) + '.' + String(new Date(tag.date).getFullYear());
+        //             }),
+        //         year: this.dtpodatki
+        //             .filter(function(tag) {
+        //                 return tag.selected;
+        //             }).map(function(tag) {
+        //                 return tag.id;
+        //             }),
+        //         classification: this.classification
+        //     }
+        // },
+        // dtchecked: function() {
+        //     var tmpchecked = this.dtselectedTags.length > 0 ? true : false;
+        //     return tmpchecked
+        // }
     },
-    created: function() {
+    mounted: function() {
         var self = this;
-        $.get(generateSearchUrl(getQueryParameters()), function(response) {
-            self.fetching = false;
-            // poslanci in poslanske skupine
-            var poslanci = response.facet_counts.facet_fields.speaker_i
-                .filter(function(person) {
-                    return person.score > 0;
-                })
-                .map(function(person) {
-                    var tagperson = {
-                        id: 'p' + String(person.person.id),
-                        label: person.person.name,
-                        count: person.score,
-                        selected: false
-                    }
-                    if (query.people) {
-                        query.people.split(',').forEach(function(element) {
-                            if (element === String(person.person.id)) {
-                                tagperson.selected = true
-                            }
-                        });
-                    }
-                    return tagperson
-                })
-                .sort(function(a, b) {
-                    return b.count - a.count;
-                });
-
-            console.log(poslanci);
-
-            var ps = response.facet_counts.facet_fields.party_e
-                .filter(function(party) {
-                    return party.score > 0;
-                })
-                .map(function(party) {
-                    var tagparty = {
-                        id: 'ps' + String(party.party.id),
-                        label: party.party.name,
-                        count: party.score,
-                        selected: false
-                    }
-                    if (query.revenue_expenses && query.revenue_expenses.indexOf(String(party.party.id)) !== -1) {
-                        tagparty.selected = true
-                    }
-                    return tagparty
-                })
-                .sort(function(a, b) {
-                    return b.count - a.count;
-                });
-
-            console.log(ps);
-
-            self.ppspodatki = poslanci.concat(ps);
-
-            console.log(poslanci.concat(ps));
-            console.log(self.ppspodatki);
-
-            self.ppsskupine = [
-                {
-                    label: 'Poslanke in poslanci',
-                    items: poslanci.map(function (person) {
-                        return person.id;
-                    })
-                }, {
-                    label: 'Poslanske skupine',
-                    items: ps.map(function (party) {
-                        return party.id;
-                    })
-                }
-            ]
-
-            // cas
-            var castemp = [];
-            response.facet_counts.facet_ranges.datetime_dt.counts.forEach(function (e, i) {
-                if (i % 2 === 0 && response.facet_counts.facet_ranges.datetime_dt.counts[i + 1] !== 0) {
-                    tempobject = {
-                        id: e,
-                        date: new Date(e),
-                        label: formatDate(new Date(e)),
-                        selected: false,
-                        count: response.facet_counts.facet_ranges.datetime_dt.counts[i + 1]
-                    }
-
-                    if (query.money) { // && formatTimeFilter(new Date(e)).indexOf(query.money) !== -1) {
-                        query.money.split(',').forEach(function (element) {
-                            if (formatTimeFilter(new Date(e)) === element) {
-                                tempobject.selected = true
-                            }
-                        });
-                    }
-
-                    castemp.push(tempobject);
+        $.get('http://badzet.knedl.si/api/get-data/', function(response) {
+            console.log(response);
+            console.log('this is the response\n\n\n\n');
+            self.kategorije = response.data.map((row) => {
+                return {
+                    label: row.classification,
+                    id: row.classifcation,
+                    selected: false
                 }
             });
-            self.caspodatki = castemp.sort(function(a, b) {
-                return new Date(a.date) - new Date(b.date);
-            });
-
-            // delovna telesa
-            self.dtpodatki = response.organizations.map(function (year) {
-
-                var tempobject = {
-                    id: year.id,
-                    label: year.name,
-                    selected: false,
-                    count: year.score
-                };
-
-                if (query.year) { // && formatTimeFilter(new Date(e)).indexOf(query.money) !== -1) {
-                    query.year.split(',').forEach(function (element) {
-                        if (String(year.id) === element) {
-                            tempobject.selected = true
-                        }
-                    });
-                }
-
-                return tempobject;
-            })
-                .sort(function(a, b) {
-                    return b.count - a.count;
-                });
-            if (!response.has_council_score) {
-                self.kolegijDisabled = true;
-            }
-            if (!response.has_classification_score) {
-                self.classificationDisabled = true;
-            }
-            if (query.classification) {
-                self.classification = true;
-            }
-            if (response.organizations.length === 0) {
-                self.dtdisabled = true;
-            }
-
-            window.setTimeout(function() {self.first_load = false;}, 1000);
         });
+        // var self = this;
+        // $.get(generateSearchUrl(getQueryParameters()), function(response) {
+        //     self.fetching = false;
+        //     // poslanci in poslanske skupine
+        //     var poslanci = response.facet_counts.facet_fields.speaker_i
+        //         .filter(function(person) {
+        //             return person.score > 0;
+        //         })
+        //         .map(function(person) {
+        //             var tagperson = {
+        //                 id: 'p' + String(person.person.id),
+        //                 label: person.person.name,
+        //                 count: person.score,
+        //                 selected: false
+        //             }
+        //             if (query.people) {
+        //                 query.people.split(',').forEach(function(element) {
+        //                     if (element === String(person.person.id)) {
+        //                         tagperson.selected = true
+        //                     }
+        //                 });
+        //             }
+        //             return tagperson
+        //         })
+        //         .sort(function(a, b) {
+        //             return b.count - a.count;
+        //         });
+
+        //     console.log(poslanci);
+
+        //     var ps = response.facet_counts.facet_fields.party_e
+        //         .filter(function(party) {
+        //             return party.score > 0;
+        //         })
+        //         .map(function(party) {
+        //             var tagparty = {
+        //                 id: 'ps' + String(party.party.id),
+        //                 label: party.party.name,
+        //                 count: party.score,
+        //                 selected: false
+        //             }
+        //             if (query.revenue_expenses && query.revenue_expenses.indexOf(String(party.party.id)) !== -1) {
+        //                 tagparty.selected = true
+        //             }
+        //             return tagparty
+        //         })
+        //         .sort(function(a, b) {
+        //             return b.count - a.count;
+        //         });
+
+        //     console.log(ps);
+
+        //     self.ppspodatki = poslanci.concat(ps);
+
+        //     console.log(poslanci.concat(ps));
+        //     console.log(self.ppspodatki);
+
+        //     self.ppsskupine = [
+        //         {
+        //             label: 'Poslanke in poslanci',
+        //             items: poslanci.map(function (person) {
+        //                 return person.id;
+        //             })
+        //         }, {
+        //             label: 'Poslanske skupine',
+        //             items: ps.map(function (party) {
+        //                 return party.id;
+        //             })
+        //         }
+        //     ]
+
+        //     // cas
+        //     var castemp = [];
+        //     response.facet_counts.facet_ranges.datetime_dt.counts.forEach(function (e, i) {
+        //         if (i % 2 === 0 && response.facet_counts.facet_ranges.datetime_dt.counts[i + 1] !== 0) {
+        //             tempobject = {
+        //                 id: e,
+        //                 date: new Date(e),
+        //                 label: formatDate(new Date(e)),
+        //                 selected: false,
+        //                 count: response.facet_counts.facet_ranges.datetime_dt.counts[i + 1]
+        //             }
+
+        //             if (query.money) { // && formatTimeFilter(new Date(e)).indexOf(query.money) !== -1) {
+        //                 query.money.split(',').forEach(function (element) {
+        //                     if (formatTimeFilter(new Date(e)) === element) {
+        //                         tempobject.selected = true
+        //                     }
+        //                 });
+        //             }
+
+        //             castemp.push(tempobject);
+        //         }
+        //     });
+        //     self.caspodatki = castemp.sort(function(a, b) {
+        //         return new Date(a.date) - new Date(b.date);
+        //     });
+
+        //     // delovna telesa
+        //     self.dtpodatki = response.organizations.map(function (year) {
+
+        //         var tempobject = {
+        //             id: year.id,
+        //             label: year.name,
+        //             selected: false,
+        //             count: year.score
+        //         };
+
+        //         if (query.year) { // && formatTimeFilter(new Date(e)).indexOf(query.money) !== -1) {
+        //             query.year.split(',').forEach(function (element) {
+        //                 if (String(year.id) === element) {
+        //                     tempobject.selected = true
+        //                 }
+        //             });
+        //         }
+
+        //         return tempobject;
+        //     })
+        //         .sort(function(a, b) {
+        //             return b.count - a.count;
+        //         });
+        //     if (!response.has_council_score) {
+        //         self.kolegijDisabled = true;
+        //     }
+        //     if (!response.has_classification_score) {
+        //         self.classificationDisabled = true;
+        //     }
+        //     if (query.classification) {
+        //         self.classification = true;
+        //     }
+        //     if (response.organizations.length === 0) {
+        //         self.dtdisabled = true;
+        //     }
+
+        //     window.setTimeout(function() {self.first_load = false;}, 1000);
+        // });
     },
     data: function() {
         return {
-            ppspodatki: [{id: 'loading', label: 'Nalagamo filtre ...', selected: false}],
-            ppsskupine: [{label: '', items: 'loading'}],
-            caspodatki: [{id: 'loading', label: 'Nalagamo filtre ...', selected: false}],
-            dtpodatki: [{id: 'loading', label: 'Nalagamo delovna telesa ...', selected: false}],
+            kategorije: [{id: 'loading', label: 'Nalagamo filtre ...', selected: false}],
+            // ppsskupine: [{label: '', items: 'loading'}],
+            // caspodatki: [{id: 'loading', label: 'Nalagamo filtre ...', selected: false}],
+            // dtpodatki: [{id: 'loading', label: 'Nalagamo delovna telesa ...', selected: false}],
             dtchecked: false,
             first_load: true,
-            fetching: true,
+            fetching: false,
             classificationDisabled: false,
             kolegijDisabled: false,
             dtdisabled: false,
@@ -475,12 +487,12 @@ function session_search_results_with_filters() {
     console.log(queryParams);
     var querystring = encodeQueryData(queryParams);
     console.log(querystring);
-    var querystringVoting = encodeQueryData(queryParams).split('q/')[1];
-    console.log(querystringVoting);
 
-    $("#session_search_results_filter .getmedata").each(function (e, urlid) {
-        var urlid = $(this).attr('id');
-        var searchurl = "http://baclassificationet.knedl.si/api/get-data/" + (querystringVoting.split('&')[0]) + '?';
+    $("#session_search_results_filter .getmedata").each(function (i, thing) {
+        // console.log(thing);
+        var urlid = $(thing).attr('id');
+        // console.log(urlid);
+        var searchurl = "http://badzet.knedl.si/api/get-data/" + '?';
         if (queryParams.name) {
             searchurl = searchurl + 'name=' + queryParams.name
         }
@@ -513,40 +525,26 @@ function session_search_results_with_filters() {
             }
         }
 
-        var url = ("http://glejbaclassificationet.knedl.si/c/" + urlid + "/?customUrl=" + encodeURIComponent(searchurl));
-        console.log(searchurl);
-        $("#" + urlid).html('<div class="card-container card-halfling"><div class="card-header"><div class="card-header-border"></div><h1>Nalagamo kartico ...</h1></div><div class="card-content half"><div class="card-content-front"><div class="nalagalnik"></div></div></div><div class="card-footer"><div class="card-logo hidden"><a href="https://skoraj.parlameter.si/"><img src="https://cdn.parlameter.si/v1/parlassets/img/logo-parlameter.svg" alt="parlameter logo"></a></div><div class="card-circle-button card-share" data-back="share"></div><div class="card-circle-button card-embed" data-back="embed"></div><div class="card-circle-button card-info" data-back="info">i</div></div></div>');
+        var url = ("http://glejbadzet.knedl.si/c/" + urlid + "/?embed=true&customUrl=" + encodeURIComponent(searchurl));
+        console.log(url);
+        // $("#" + urlid).html('<div class="card-container card-halfling"><div class="card-header"><div class="card-header-border"></div><h1>Nalagamo kartico ...</h1></div><div class="card-content half"><div class="card-content-front"><div class="nalagalnik"></div></div></div><div class="card-footer"><div class="card-logo hidden"><a href="https://skoraj.parlameter.si/"><img src="https://cdn.parlameter.si/v1/parlassets/img/logo-parlameter.svg" alt="parlameter logo"></a></div><div class="card-circle-button card-share" data-back="share"></div><div class="card-circle-button card-embed" data-back="embed"></div><div class="card-circle-button card-info" data-back="info">i</div></div></div>');
+        $("#" + urlid).html('<script>(function(d,script){script=d.createElement(\'script\');script.type=\'text/javascript\';script.async=true;script.onload=function(){iFrameResize({log:true,checkOrigin:false})};script.src=\'https://cdn.parlameter.si/v1/parlassets/js/iframeResizer.min.js\';d.getElementsByTagName(\'head\')[0].appendChild(script);}(document));</script><iframe frameborder="0" width="100%" src="' + url + '"></iframe>');
 
-        var jqxhr = $.ajax(url)
-            .done(function (data) {
-
-                $("#" + urlid).html(data);
-                DNDrepeatEmbedCall();
-            })
-            .fail(function () {
-                $("#" + urlid).html(urlid + " error");
-            })
-            .always(function () {
-            });
-    });
-
-    $("#session_search_results_filter .getmedata-voting").each(function (e, urlid) {
-        var urlid = $(this).attr('id');
-
-        var url = ("http://glejbaclassificationet.knedl.si/c/" + urlid + "/?customUrl=" + encodeURIComponent("https://isci.parlameter.si/v/" + (querystringVoting)));
-        $("#" + urlid).html('<div class="card-container card-halfling"><div class="card-header"><div class="card-header-border"></div><h1>Nalagamo kartico ...</h1></div><div class="card-content half"><div class="card-content-front"><div class="nalagalnik"></div></div></div><div class="card-footer"><div class="card-logo hidden"><a href="https://skoraj.parlameter.si/"><img src="https://cdn.parlameter.si/v1/parlassets/img/logo-parlameter.svg" alt="parlameter logo"></a></div><div class="card-circle-button card-share" data-back="share"></div><div class="card-circle-button card-embed" data-back="embed"></div><div class="card-circle-button card-info" data-back="info">i</div></div></div>');
-
-        var jqxhr = $.ajax(url)
-            .done(function (data) {
-
-                $("#" + urlid).html(data);
-                DNDrepeatEmbedCall();
-            })
-            .fail(function () {
-                $("#" + urlid).html(urlid + " error");
-            })
-            .always(function () {
-            });
+        // var jqxhr = $.ajax(url)
+        //     .done(function (data) {
+        //         // console.log('[GOT DATA]');
+        //         // console.log(urlid);
+        //         // console.log(data);
+        //         // console.log($('#' + urlid));
+        //         $("#" + urlid).html(data);
+        //         // console.log($('#' + urlid).html());
+        //         // DNDrepeatEmbedCall();
+        //     })
+        //     .fail(function () {
+        //         $("#" + urlid).html(urlid + " error");
+        //     })
+        //     .always(function () {
+        //     });
     });
 }
 
