@@ -64,7 +64,7 @@ docs/_build/
 target/
 
 # Static
-static/
+# static/
 .vscode/.ropeproject/config.py
 
 
