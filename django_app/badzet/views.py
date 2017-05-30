@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response
 from django.forms.models import model_to_dict
 from django.http import JsonResponse
 import json
@@ -63,3 +63,6 @@ def groupBy(request, key):
     budgets = filter_model(request, Budget.objects.all())
     budgets = budgets.values(key).annotate(total=Sum('money')).order_by("-total")
     return JsonResponse({'data': list(budgets)})
+
+def showPage(request):
+    return render_to_response('badzet/index.html')
