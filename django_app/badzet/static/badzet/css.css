@@ -1,0 +1,45 @@
+.parlabutton-filter {
+    margin: auto;
+    position: relative;
+    width: 200px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    background-color: #197197;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+}
+.parlabutton-filter:hover {
+    background-color: #002395;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.tooltip-session-search-container {
+    max-width: 300px;
+}
+
+footer.footer {
+    height: 121px;
+}
+.stripeeltop {
+    background: #002395;
+    background: -webkit-linear-gradient(left, #002395 0%, #fecb00 100%);
+    background: linear-gradient(to right, #002395 0%, #fecb00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002395', endColorstr='#fecb00',GradientType=1 );
+}
+
+.stripeelbottom:after {
+    background: #002395;
+    background: -webkit-linear-gradient(left, #002395 0%, #fecb00 100%);
+    background: linear-gradient(to right, #002395 0%, #fecb00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002395', endColorstr='#fecb00',GradientType=1 );
+}
+
+.card-header .card-header-border {
+    background: #002395;
+    background: -webkit-linear-gradient(top, #002395 0%, #fecb00 100%);
+    background: linear-gradient(to bottom, #002395 0%, #fecb00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002395', endColorstr='#fecb00',GradientType=0 );
+}
