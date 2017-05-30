@@ -20,8 +20,12 @@ def get_data(request):
     classifications = list(set(list(budgets.values_list('classification',
                                                         flat=True))))
 
-    return JsonResponse({'data': data,
-                         'classifications': classifications}, safe=False)
+    response = JsonResponse({'data': data, 'classifications': classifications}, safe=False)
+    response["Access-Control-Allow-Origin"] = "*"
+    response["Access-Control-Allow-Methods"] = "POST, GET, OPTIONS"
+    response["Access-Control-Max-Age"] = "1000"
+    response["Access-Control-Allow-Headers"] = "*"
+    return response
 
 
 def set_data(request):
