@@ -134,4 +134,4 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static_manual"),
 ]   
 
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.path.join(BASE_DIR, "badzet/static")
