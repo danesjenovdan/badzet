@@ -28,12 +28,9 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
 
-    <script src="https://unpkg.com/vue@2.2.6/dist/vue.min.js"></script>
+    <script src="https://unpkg.com/vue@2.2.6/dist/vue.js"></script>
     <script src="https://cdn.ravenjs.com/3.14.2/vue/raven.min.js"></script>
 
     <script src="https://cdn.parlameter.si/v1/parlassets/js/components.js"></script>
@@ -131,12 +128,12 @@
                                                 <div class="searchfilter-container" id="pps">
                                                     <div class="searchfilter-label">Filtriraj prihodke/odhodke</div>
                                                     <div class="searchfilter-checkbox">
-                                                        <input id="dz" type="checkbox" class="checkbox" v-bind:checked="dz">
-                                                        <label for="dz">Only income</label>
+                                                        <input id="rev" type="checkbox" class="checkbox" @click="handleRevCheckbox" v-bind:checked="rev">
+                                                        <label for="rev">Income</label>
                                                     </div>
                                                     <div class="searchfilter-checkbox">
-                                                        <input id="dz" type="checkbox" class="checkbox" v-bind:checked="dz">
-                                                        <label for="dz">Only expenses</label>
+                                                        <input id="exp" type="checkbox" class="checkbox" @click="handleExpCheckbox" v-bind:checked="exp">
+                                                        <label for="exp">Expenses</label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -210,12 +207,14 @@
 
     <div class="container">
         <div class="row" id="session_search_results_filter">
-            <!--<div class="col-md-6 ">
+            <div class="col-md-12 ">
                 <div class="getmedata" id="search"></div>
-            </div>-->
+            </div>
             <div class="col-md-6 ">
                 <div class="getmedata" id="vsota"></div>
             </div>
+        <!--</div>
+        <div class="row">-->
             <div class="col-md-6 ">
                 <div class="getmedata" id="piechart"></div>
             </div>

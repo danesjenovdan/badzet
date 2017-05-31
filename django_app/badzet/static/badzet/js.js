@@ -158,6 +158,34 @@ var testis = new Vue({
                 .filter(function(tag) { return tag.selected })
                 .map(function(tag) { return tag.id });
         },
+        revex: function() {
+            let temprevex = this.rev ? 'inc' : '';
+            temprevex = temprevex + (this.exp ? '|exp' : '');
+            return temprevex;
+        },
+        queryString: function() {
+            // const money = $('.slider').val();
+            const names = encodeURIComponent(this.imenaSelected.reduce((acc, val) => {
+                if (this.imenaSelected.indexOf(val) < this.imenaSelected.length - 1) {
+                    return acc + val + '|';   
+                }
+                return acc + val;
+            }, ''));
+            const revex = this.revex; // TODO
+            const years = this.letaSelected.reduce((acc, val) => {
+                if  (this.letaSelected.indexOf(val) < this.letaSelected.length - 1) {
+                    return acc + val + ',';
+                }
+                return acc + val
+            }, '');
+            const classifications = encodeURIComponent(this.klasifikacijeSelected.reduce((acc, val) => {
+                if (this.klasifikacijeSelected.indexOf(val) < this.klasifikacijeSelected.length - 1) {
+                    return acc + val + '|';
+                }
+                return acc + val;
+            }, ''));
+            return 'http://badzet.knedl.si/api/get-data/?money=' + this.moneys + '&name=' + names + '&revenue_expenses=' + revex + '&year=' + years + '&classification=' + classifications;
+        }
     },
     filters: function() {
         return {
@@ -202,13 +230,62 @@ var testis = new Vue({
             dtchecked: false,
             first_load: true,
             fetching: false,
-            dz: false,
+            rev: false,
+            exp: false,
+            moneys: '',
         }
     },
     methods: {
-        
+        handleRevCheckbox: function(event) {
+            this.rev = !this.rev;
+        },
+        handleExpCheckbox: function(event) {
+            this.exp = !this.exp;
+        },
+        reloadCards: function() {
+            var self = this;
+            $("#session_search_results_filter .getmedata").each(function (i, thing) {
+                // console.log(thing);
+                var urlid = $(thing).attr('id');
+                // console.log(urlid);
+
+                var url = "http://glejbadzet.knedl.si/c/" + urlid + "/?customUrl=" + encodeURIComponent(self.queryString);
+                console.log(self.queryString);
+                console.log(url);
+                $("#" + urlid).html('<div class="card-container card-halfling"><div class="card-header"><div class="card-header-border"></div><h1>Nalagamo kartico ...</h1></div><div class="card-content half"><div class="card-content-front"><div class="nalagalnik"></div></div></div><div class="card-footer"><div class="card-logo hidden"><a href="https://skoraj.parlameter.si/"><img src="https://cdn.parlameter.si/v1/parlassets/img/logo-parlameter.svg" alt="parlameter logo"></a></div><div class="card-circle-button card-share" data-back="share"></div><div class="card-circle-button card-embed" data-back="embed"></div><div class="card-circle-button card-info" data-back="info">i</div></div></div>');
+                // $("#" + urlid).html('<script>(function(d,script){script=d.createElement(\'script\');script.type=\'text/javascript\';script.async=true;script.onload=function(){iFrameResize({log:true,checkOrigin:false})};script.src=\'https://cdn.parlameter.si/v1/parlassets/js/iframeResizer.min.js\';d.getElementsByTagName(\'head\')[0].appendChild(script);}(document));</script><iframe frameborder="0" width="100%" src="' + url + '"></iframe>');
+
+                var jqxhr = $.ajax(url)
+                    .done(function (data) {
+                        // console.log('[GOT DATA]');
+                        // console.log(urlid);
+                        // console.log(data);
+                        // console.log($('#' + urlid));
+                        $("#" + urlid).html(data);
+                        // console.log($('#' + urlid).html());
+                        // DNDrepeatEmbedCall();
+                    })
+                    .fail(function () {
+                        $("#" + urlid).html(urlid + " error");
+                    })
+                    .always(function () {
+                    });
+            });
+        }
     },
     watch: {
+        queryString: function() {
+            this.reloadCards();
+        },
+        // klasifikacijeSelected: function() {
+        //     this.reloadCards();
+        // },
+        // letaSelected: function() {
+        //     this.reloadCards();
+        // },
+        // revex: function() {
+        //     this.reloadCards();
+        // }
     }
 });
 
@@ -242,7 +319,10 @@ var progressbarTooltip = {
 
 $(document).ready(function() {
     progressbarTooltip.init('session-search-container');
-    $("#slider").slider({});
+    $("#slider").slider({}).on('slideStop', function() {
+        testis.moneys = $('#slider').val();
+        // testis.reloadCards();
+    });
 });
 
 
@@ -312,26 +392,26 @@ function session_search_results_with_filters() {
             }
         }
 
-        var url = ("http://glejbadzet.knedl.si/c/" + urlid + "/?embed=true&customUrl=" + encodeURIComponent(searchurl));
+        var url = ("http://glejbadzet.knedl.si/c/" + urlid + "/?customUrl=" + encodeURIComponent(searchurl));
         console.log(url);
-        // $("#" + urlid).html('<div class="card-container card-halfling"><div class="card-header"><div class="card-header-border"></div><h1>Nalagamo kartico ...</h1></div><div class="card-content half"><div class="card-content-front"><div class="nalagalnik"></div></div></div><div class="card-footer"><div class="card-logo hidden"><a href="https://skoraj.parlameter.si/"><img src="https://cdn.parlameter.si/v1/parlassets/img/logo-parlameter.svg" alt="parlameter logo"></a></div><div class="card-circle-button card-share" data-back="share"></div><div class="card-circle-button card-embed" data-back="embed"></div><div class="card-circle-button card-info" data-back="info">i</div></div></div>');
-        $("#" + urlid).html('<script>(function(d,script){script=d.createElement(\'script\');script.type=\'text/javascript\';script.async=true;script.onload=function(){iFrameResize({log:true,checkOrigin:false})};script.src=\'https://cdn.parlameter.si/v1/parlassets/js/iframeResizer.min.js\';d.getElementsByTagName(\'head\')[0].appendChild(script);}(document));</script><iframe frameborder="0" width="100%" src="' + url + '"></iframe>');
+        $("#" + urlid).html('<div class="card-container card-halfling"><div class="card-header"><div class="card-header-border"></div><h1>Nalagamo kartico ...</h1></div><div class="card-content half"><div class="card-content-front"><div class="nalagalnik"></div></div></div><div class="card-footer"><div class="card-logo hidden"><a href="https://skoraj.parlameter.si/"><img src="https://cdn.parlameter.si/v1/parlassets/img/logo-parlameter.svg" alt="parlameter logo"></a></div><div class="card-circle-button card-share" data-back="share"></div><div class="card-circle-button card-embed" data-back="embed"></div><div class="card-circle-button card-info" data-back="info">i</div></div></div>');
+        // $("#" + urlid).html('<script>(function(d,script){script=d.createElement(\'script\');script.type=\'text/javascript\';script.async=true;script.onload=function(){iFrameResize({log:true,checkOrigin:false})};script.src=\'https://cdn.parlameter.si/v1/parlassets/js/iframeResizer.min.js\';d.getElementsByTagName(\'head\')[0].appendChild(script);}(document));</script><iframe frameborder="0" width="100%" src="' + url + '"></iframe>');
 
-        // var jqxhr = $.ajax(url)
-        //     .done(function (data) {
-        //         // console.log('[GOT DATA]');
-        //         // console.log(urlid);
-        //         // console.log(data);
-        //         // console.log($('#' + urlid));
-        //         $("#" + urlid).html(data);
-        //         // console.log($('#' + urlid).html());
-        //         // DNDrepeatEmbedCall();
-        //     })
-        //     .fail(function () {
-        //         $("#" + urlid).html(urlid + " error");
-        //     })
-        //     .always(function () {
-        //     });
+        var jqxhr = $.ajax(url)
+            .done(function (data) {
+                // console.log('[GOT DATA]');
+                // console.log(urlid);
+                // console.log(data);
+                // console.log($('#' + urlid));
+                $("#" + urlid).html(data);
+                // console.log($('#' + urlid).html());
+                // DNDrepeatEmbedCall();
+            })
+            .fail(function () {
+                $("#" + urlid).html(urlid + " error");
+            })
+            .always(function () {
+            });
     });
 }
 
