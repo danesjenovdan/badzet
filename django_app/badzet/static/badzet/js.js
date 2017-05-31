@@ -145,6 +145,19 @@ var testis = new Vue({
                 .filter(function(tag) { return tag.selected })
                 .map(function(tag) { return tag.id });
         },
+        letaPlaceholder: function() {
+            if (this.leta[0]) {
+                if (this.leta[0].id === 'loading') {
+                    return 'Nalagamo filtre ...'
+                }
+            }
+            return this.letaSelected.length > 0 ? 'Izbranih filtrov: ' + this.letaSelected.length : 'Izberi filtre'
+        },
+        letaSelected: function() {
+            return this.leta
+                .filter(function(tag) { return tag.selected })
+                .map(function(tag) { return tag.id });
+        },
     },
     filters: function() {
         return {
@@ -185,9 +198,11 @@ var testis = new Vue({
         return {
             klasifikacije: [{id: 'loading', label: 'Nalagamo filtre ...', selected: false}],
             imena: [{id: 'loading', label: 'Nalagamo filtre ...', selected: false}],
+            leta: [{id: '2005', label:  '2005', selected: false}, {id: '2006', label:  '2006', selected: false}, {id: '2007', label:  '2007', selected: false}, {id: '2008', label:  '2008', selected: false}, {id: '2009', label:  '2009', selected: false}, {id: '2010', label:  '2010', selected: false}, {id: '2011', label:  '2011', selected: false}, {id: '2012', label:  '2012', selected: false}, {id: '2013', label:  '2013', selected: false}, {id: '2014', label:  '2014', selected: false}],
             dtchecked: false,
             first_load: true,
             fetching: false,
+            dz: false,
         }
     },
     methods: {
@@ -225,7 +240,10 @@ var progressbarTooltip = {
     }
 }
 
-$(document).ready(function() {progressbarTooltip.init('session-search-container');});
+$(document).ready(function() {
+    progressbarTooltip.init('session-search-container');
+    $("#slider").slider({});
+});
 
 
 function session_search_results_with_filters() {
