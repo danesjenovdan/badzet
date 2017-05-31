@@ -28,7 +28,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.11.0/chartist.min.js"></script>
 
     <script src="https://unpkg.com/vue@2.2.6/dist/vue.js"></script>
     <script src="https://cdn.ravenjs.com/3.14.2/vue/raven.min.js"></script>
@@ -36,7 +36,7 @@
     <script src="https://cdn.parlameter.si/v1/parlassets/js/components.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/bootstrap-slider.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/css/bootstrap-slider.min.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.11.0/chartist.min.css" />
     <!-- Piwik -->
     <script type="text/javascript">
         var _paq = _paq || [];
@@ -63,21 +63,6 @@
 <header class="header">
     <div class="stripeeltop"></div>
     <div class="container">
-
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-                <a class="navbar-brand logo" href="/">
-                    <img src="https://point.zastone.ba/site/wp-content/uploads/2016/03/point_logo.png" style="width: 200px;" />
-                </a>
-            </div>
-
-            <div class="collapse-not navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li class=""><a href="https://point.zastone.ba/en/">Point 2017</a></li>
-                </ul>
-            </div>
-        </nav>
-
     </div>
 </header>
 <div class="container">
@@ -207,21 +192,18 @@
 
     <div class="container">
         <div class="row" id="session_search_results_filter">
-            <div class="col-md-12 ">
-                <div class="getmedata" id="search"></div>
-            </div>
-            <div class="col-md-6 ">
+            <div class="col-md-12">
                 <div class="getmedata" id="vsota"></div>
             </div>
-        <!--</div>
-        <div class="row">-->
             <div class="col-md-6 ">
                 <div class="getmedata" id="piechart"></div>
             </div>
             <div class="col-md-6 ">
                 <div class="getmedata" id="barchart"></div>
             </div>
-
+            <div class="col-md-12 ">
+                <div class="getmedata" id="search"></div>
+            </div>
         </div>
     </div>
 
