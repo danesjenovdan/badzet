@@ -1,4 +1,4 @@
-var API_ENDPOINT = 'http://localhost:3000/';
+var API_ENDPOINT = 'http://glejbadzet.knedl.si/';
 
 // https://isci.parlameter.si/filter/kriza?people=80
 function getParameterByName(name, url) {

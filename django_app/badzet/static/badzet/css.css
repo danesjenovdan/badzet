@@ -10,6 +10,7 @@
     margin-top: 20px;
     display: block;
 }
+
 .parlabutton-filter:hover {
     background-color: #002395;
     text-decoration: none;
@@ -23,25 +24,26 @@
 footer.footer {
     height: 121px;
 }
+
 .stripeeltop {
     background: #002395;
     background: -webkit-linear-gradient(left, #002395 0%, #fecb00 100%);
     background: linear-gradient(to right, #002395 0%, #fecb00 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002395', endColorstr='#fecb00',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002395', endColorstr='#fecb00', GradientType=1);
 }
 
 .stripeelbottom:after {
     background: #002395;
     background: -webkit-linear-gradient(left, #002395 0%, #fecb00 100%);
     background: linear-gradient(to right, #002395 0%, #fecb00 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002395', endColorstr='#fecb00',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002395', endColorstr='#fecb00', GradientType=1);
 }
 
 .card-header .card-header-border {
     background: #002395;
     background: -webkit-linear-gradient(top, #002395 0%, #fecb00 100%);
     background: linear-gradient(to bottom, #002395 0%, #fecb00 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002395', endColorstr='#fecb00',GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002395', endColorstr='#fecb00', GradientType=0);
 }
 
 .searchfilter-container {
@@ -51,13 +53,36 @@ footer.footer {
 .search-dropdown:after {
     border-color: #002395 transparent transparent transparent;
 }
+
 .slider-handle {
     background-image: none !important;
     background-color: #002395 !important;
 }
+
 #cas b:first-of-type {
     margin-right: 10px;
 }
+
 #cas b:last-of-type {
     margin-left: 10px;
+}
+
+.naslov,
+.podnaslov {
+    font-family: 'Roboto Slab', serif;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    max-width: 300px;
+}
+
+.naslov {
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.podnaslov {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
