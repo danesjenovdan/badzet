@@ -39,12 +39,16 @@ def set_data(request):
 
 
 def filter_model(request, objects):
-    args = {}
     for field in TEXT_FIELDS:
         data = request.GET.get(field, None)
         if data:
-            args[field + '__icontains'] = data
-    objects = objects.filter(**args)
+            q_objects = Q()
+            for text in data.split('|'):
+                args = {}
+                args[field + '__icontains'] = text
+                q_objects |= Q(**args)
+
+    objects = objects.filter(q_objects)
 
     data = request.GET.get('year', None)
     if data:
