@@ -34,6 +34,7 @@
     <script src="https://cdn.ravenjs.com/3.14.2/vue/raven.min.js"></script>
 
     <script src="https://cdn.parlameter.si/v1/parlassets/js/components.js"></script>
+    <!--<link rel="stylesheet" href="https://cdn.parlameter.si/v1/parlassets/scss/style.css" />-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/bootstrap-slider.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/css/bootstrap-slider.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.11.0/chartist.min.css" />
@@ -79,7 +80,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="searchfilter-container" id="pps">
-                                                    <div class="searchfilter-label">Filtriraj klasifikacije</div>
+                                                    <div class="searchfilter-label">Filter by classification</div>
                                                     <div class="searchfilter-input">
                                                         <search-dropdown :alphabetise="false" :items="klasifikacije" :placeholder="klasifikacijePlaceholder"></search-dropdown>
                                                     </div>
@@ -89,7 +90,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="searchfilter-container" id="cas">
-                                                    <div class="searchfilter-label">Filtriraj imena</div>
+                                                    <div class="searchfilter-label">Filter by name</div>
                                                     <div class="searchfilter-input">
                                                         <search-dropdown :alphabetise="false" :items="imena" :placeholder="imenaPlaceholder"></search-dropdown>
                                                     </div>
@@ -99,7 +100,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="searchfilter-container" id="cas">
-                                                    <div class="searchfilter-label">Filtriraj leta</div>
+                                                    <div class="searchfilter-label">Filter by year</div>
                                                     <div class="searchfilter-input">
                                                         <search-dropdown :alphabetise="false" :items="leta" :placeholder="letaPlaceholder"></search-dropdown>
                                                     </div>
@@ -111,7 +112,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="searchfilter-container" id="pps">
-                                                    <div class="searchfilter-label">Filtriraj prihodke/odhodke</div>
+                                                    <div class="searchfilter-label">Filter by income/expenses</div>
                                                     <div class="searchfilter-checkbox">
                                                         <input id="rev" type="checkbox" class="checkbox" @click="handleRevCheckbox" v-bind:checked="rev">
                                                         <label for="rev">Income</label>
@@ -126,7 +127,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="searchfilter-container" id="cas">
-                                                    <div class="searchfilter-label">Filtriraj denar</div>
+                                                    <div class="searchfilter-label">Filter by the amount of money</div>
                                                     <b>0 KM</b> <input id="slider" type="text" class="span2" value="" data-slider-min="0" data-slider-max="10000000" data-slider-step="100000" data-slider-value="[0,10000000]"/> <b>10000000 KM</b>
                                                 </div>
                                             </div>

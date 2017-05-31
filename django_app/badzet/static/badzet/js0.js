@@ -131,7 +131,7 @@ function copyToClipboard(elem, button) {
     }
 
     if (succeed) {
-        button.textContent = "SKOPIRANO!";
+        button.textContent = "COPIED!";
     }
     return succeed;
 }

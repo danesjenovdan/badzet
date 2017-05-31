@@ -1,4 +1,4 @@
-var API_ENDPOINT = 'http://glejbadzet.knedl.si';
+var API_ENDPOINT = 'http://localhost:3000/';
 
 // https://isci.parlameter.si/filter/kriza?people=80
 function getParameterByName(name, url) {
@@ -122,10 +122,10 @@ var testis = new Vue({
         klasifikacijePlaceholder: function() {
             if (this.klasifikacije[0]) {
                 if (this.klasifikacije[0].id === 'loading') {
-                    return 'Nalagamo filtre ...'
+                    return 'Loading filters ...'
                 }
             }
-            return this.klasifikacijeSelected.length > 0 ? 'Izbranih filtrov: ' + this.klasifikacijeSelected.length : 'Izberi filtre'
+            return this.klasifikacijeSelected.length > 0 ? 'No. of chosen filters: ' + this.klasifikacijeSelected.length : 'Choose filters'
         },
         klasifikacijeSelected: function() {
             return this.klasifikacije
@@ -135,10 +135,10 @@ var testis = new Vue({
         imenaPlaceholder: function() {
             if (this.imena[0]) {
                 if (this.imena[0].id === 'loading') {
-                    return 'Nalagamo filtre ...'
+                    return 'Loading filters ...'
                 }
             }
-            return this.imenaSelected.length > 0 ? 'Izbranih filtrov: ' + this.imenaSelected.length : 'Izberi filtre'
+            return this.imenaSelected.length > 0 ? 'No. of chosen filters: ' + this.imenaSelected.length : 'Choose filters'
         },
         imenaSelected: function() {
             return this.imena
@@ -148,10 +148,10 @@ var testis = new Vue({
         letaPlaceholder: function() {
             if (this.leta[0]) {
                 if (this.leta[0].id === 'loading') {
-                    return 'Nalagamo filtre ...'
+                    return 'Loading filters ...'
                 }
             }
-            return this.letaSelected.length > 0 ? 'Izbranih filtrov: ' + this.letaSelected.length : 'Izberi filtre'
+            return this.letaSelected.length > 0 ? 'No. of chosen filters: ' + this.letaSelected.length : 'Choose filters'
         },
         letaSelected: function() {
             return this.leta
@@ -224,8 +224,8 @@ var testis = new Vue({
     },
     data: function() {
         return {
-            klasifikacije: [{id: 'loading', label: 'Nalagamo filtre ...', selected: false}],
-            imena: [{id: 'loading', label: 'Nalagamo filtre ...', selected: false}],
+            klasifikacije: [{id: 'loading', label: 'Loading filters ...', selected: false}],
+            imena: [{id: 'loading', label: 'Loading filters ...', selected: false}],
             leta: [{id: '2005', label:  '2005', selected: false}, {id: '2006', label:  '2006', selected: false}, {id: '2007', label:  '2007', selected: false}, {id: '2008', label:  '2008', selected: false}, {id: '2009', label:  '2009', selected: false}, {id: '2010', label:  '2010', selected: false}, {id: '2011', label:  '2011', selected: false}, {id: '2012', label:  '2012', selected: false}, {id: '2013', label:  '2013', selected: false}, {id: '2014', label:  '2014', selected: false}],
             dtchecked: false,
             first_load: true,
@@ -249,7 +249,7 @@ var testis = new Vue({
                 var urlid = $(thing).attr('id');
                 // console.log(urlid);
 
-                var url = "http://glejbadzet.knedl.si/c/" + urlid + "/?customUrl=" + encodeURIComponent(self.queryString);
+                var url = API_ENDPOINT + "c/" + urlid + "/?customUrl=" + encodeURIComponent(self.queryString);
                 console.log(self.queryString);
                 console.log(url);
                 $("#" + urlid).html('<div class="card-container card-halfling"><div class="card-header"><div class="card-header-border"></div><h1>Nalagamo kartico ...</h1></div><div class="card-content half"><div class="card-content-front"><div class="nalagalnik"></div></div></div><div class="card-footer"><div class="card-logo hidden"><a href="https://skoraj.parlameter.si/"><img src="https://cdn.parlameter.si/v1/parlassets/img/logo-parlameter.svg" alt="parlameter logo"></a></div><div class="card-circle-button card-share" data-back="share"></div><div class="card-circle-button card-embed" data-back="embed"></div><div class="card-circle-button card-info" data-back="info">i</div></div></div>');
@@ -392,7 +392,7 @@ function session_search_results_with_filters() {
             }
         }
 
-        var url = ("http://glejbadzet.knedl.si/c/" + urlid + "/?customUrl=" + encodeURIComponent(searchurl));
+        var url = (API_ENDPOINT + "c/" + urlid + "/?customUrl=" + encodeURIComponent(searchurl));
         console.log(url);
         $("#" + urlid).html('<div class="card-container card-halfling"><div class="card-header"><div class="card-header-border"></div><h1>Nalagamo kartico ...</h1></div><div class="card-content half"><div class="card-content-front"><div class="nalagalnik"></div></div></div><div class="card-footer"><div class="card-logo hidden"><a href="https://skoraj.parlameter.si/"><img src="https://cdn.parlameter.si/v1/parlassets/img/logo-parlameter.svg" alt="parlameter logo"></a></div><div class="card-circle-button card-share" data-back="share"></div><div class="card-circle-button card-embed" data-back="embed"></div><div class="card-circle-button card-info" data-back="info">i</div></div></div>');
         // $("#" + urlid).html('<script>(function(d,script){script=d.createElement(\'script\');script.type=\'text/javascript\';script.async=true;script.onload=function(){iFrameResize({log:true,checkOrigin:false})};script.src=\'https://cdn.parlameter.si/v1/parlassets/js/iframeResizer.min.js\';d.getElementsByTagName(\'head\')[0].appendChild(script);}(document));</script><iframe frameborder="0" width="100%" src="' + url + '"></iframe>');

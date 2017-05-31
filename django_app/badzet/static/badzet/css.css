@@ -43,3 +43,21 @@ footer.footer {
     background: linear-gradient(to bottom, #002395 0%, #fecb00 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002395', endColorstr='#fecb00',GradientType=0 );
 }
+
+.searchfilter-container {
+    background-color: #DEDEE9;
+}
+
+.search-dropdown:after {
+    border-color: #002395 transparent transparent transparent;
+}
+.slider-handle {
+    background-image: none !important;
+    background-color: #002395 !important;
+}
+#cas b:first-of-type {
+    margin-right: 10px;
+}
+#cas b:last-of-type {
+    margin-left: 10px;
+}
