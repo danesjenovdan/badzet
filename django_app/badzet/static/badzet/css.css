@@ -96,3 +96,7 @@ footer.footer {
 .card-container:before {
     background-color: #56496D;
 }
+
+.nalagalnik {
+    background: url('http://badzet.knedl.si/static/badzet/img/spin.gif') no-repeat center center;
+}
