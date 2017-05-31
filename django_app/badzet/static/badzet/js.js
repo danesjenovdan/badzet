@@ -161,7 +161,7 @@ var testis = new Vue({
         },
         revex: function() {
             let temprevex = this.rev ? 'inc' : '';
-            temprevex = temprevex + (this.exp ? '|exp' : '');
+            temprevex = temprevex + (temprevex === 'inc' ? (this.exp ? '|': '') : '') + (this.exp ? 'exp' : '');
             return temprevex;
         },
         queryString: function() {
