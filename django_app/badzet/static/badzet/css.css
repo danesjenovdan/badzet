@@ -94,9 +94,16 @@ footer.footer {
     background-color: #56496D;
 }
 .card-container:before {
-    background-color: #56496D;
+    background-color: #56496D !important;
 }
 
 .nalagalnik {
     background: url('http://badzet.knedl.si/static/badzet/img/spin.gif') no-repeat center center;
+}
+.checkbox:checked + label:before {
+    background: no-repeat 4px 5px url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="13.5" height="10.125" fill="#002395" viewBox="0 0 3.5718749 2.6789063"><path d="M.893 2.423l.256.256L3.57.254 3.317 0 .894 2.423zM0 1.53l.893.893.256-.255-.894-.892L0 1.53z" fill-rule="evenodd"/></svg>');
+    background-color: #f0f0f0;
+}
+.btn-parlameter {
+    background-color: #161796;
 }

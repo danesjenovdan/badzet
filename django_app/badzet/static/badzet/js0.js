@@ -189,7 +189,7 @@ function addCardRippling(element) {
                     .text('i');
 
                 $(this)
-                    .text('Ă')
+                    .text('×')
                     .addClass('card-exit');
 
                 $parentcontainer

@@ -1,4 +1,5 @@
-var API_ENDPOINT = 'http://glejbadzet.knedl.si/';
+// var API_ENDPOINT = 'http://glejbadzet.knedl.si/';
+var API_ENDPOINT = 'http://localhost:3000/';
 
 // https://isci.parlameter.si/filter/kriza?people=80
 function getParameterByName(name, url) {
@@ -184,7 +185,7 @@ var testis = new Vue({
                 }
                 return acc + val;
             }, ''));
-            return 'http://badzet.knedl.si/api/get-data/?money=' + this.moneys + '&name=' + names + '&revenue_expenses=' + revex + '&year=' + years + '&classification=' + classifications;
+            return 'http://badzet.knedl.si/api/get-data/?money=' +  this.moneys + '&name=' + names + '&revenue_expenses=' + revex + '&year=' + years + '&classification=' + classifications;
         }
     },
     filters: function() {
