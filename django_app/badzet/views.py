@@ -50,7 +50,7 @@ def filter_model(request, objects):
         if data:
             for text in data.split('|'):
                 args = {}
-                args[field + '__icontains'] = text
+                args[field + ''] = text
                 q_objects |= Q(**args)
 
     objects = objects.filter(q_objects)
