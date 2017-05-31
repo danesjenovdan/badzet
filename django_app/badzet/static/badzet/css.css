@@ -86,3 +86,13 @@ footer.footer {
     font-weight: 700;
     margin-bottom: 20px;
 }
+
+.card-circle-button {
+    background-color: #161796;
+}
+.card-circle-button:hover {
+    background-color: #56496D;
+}
+.card-container:before {
+    background-color: #56496D;
+}
