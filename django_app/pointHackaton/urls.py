@@ -14,12 +14,15 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url
+from  django.conf import settings
+from django.conf.urls.static import static
 from django.contrib import admin
-from badzet.views import get_data, set_data, groupBy
+from badzet.views import get_data, set_data, groupBy, showPage
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api/get-data/$', get_data),
     url(r'^api/set-data/$', get_data),
     url(r'^api/group-by/(?P<key>[\w].+)/$', groupBy),
-]
+    url(r'^$', showPage)
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

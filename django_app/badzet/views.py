@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response
 from django.forms.models import model_to_dict
 from django.http import JsonResponse
 import json
@@ -20,8 +20,12 @@ def get_data(request):
     classifications = list(set(list(budgets.values_list('classification',
                                                         flat=True))))
 
-    return JsonResponse({'data': data,
-                         'classifications': classifications}, safe=False)
+    response = JsonResponse({'data': data, 'classifications': classifications}, safe=False)
+    response["Access-Control-Allow-Origin"] = "*"
+    response["Access-Control-Allow-Methods"] = "POST, GET, OPTIONS"
+    response["Access-Control-Max-Age"] = "1000"
+    response["Access-Control-Allow-Headers"] = "*"
+    return response
 
 
 def set_data(request):
@@ -67,3 +71,6 @@ def groupBy(request, key):
     budgets = filter_model(request, Budget.objects.all())
     budgets = budgets.values(key).annotate(total=Sum('money')).order_by("-total")
     return JsonResponse({'data': list(budgets)})
+
+def showPage(request):
+    return render_to_response('badzet/index.html')
