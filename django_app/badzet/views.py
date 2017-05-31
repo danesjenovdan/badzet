@@ -3,6 +3,7 @@ from django.forms.models import model_to_dict
 from django.http import JsonResponse
 import json
 from django.db.models import Sum
+from django.db.models import Q
 
 from .models import Budget
 
@@ -43,12 +44,16 @@ def set_data(request):
 
 
 def filter_model(request, objects):
-    args = {}
+    q_objects = Q()
     for field in TEXT_FIELDS:
         data = request.GET.get(field, None)
         if data:
-            args[field + '__icontains'] = data
-    objects = objects.filter(**args)
+            for text in data.split('|'):
+                args = {}
+                args[field + '__icontains'] = text
+                q_objects |= Q(**args)
+
+    objects = objects.filter(q_objects)
 
     data = request.GET.get('year', None)
     if data:
