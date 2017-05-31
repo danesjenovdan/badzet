@@ -44,10 +44,10 @@ def set_data(request):
 
 
 def filter_model(request, objects):
+    q_objects = Q()
     for field in TEXT_FIELDS:
         data = request.GET.get(field, None)
         if data:
-            q_objects = Q()
             for text in data.split('|'):
                 args = {}
                 args[field + '__icontains'] = text
